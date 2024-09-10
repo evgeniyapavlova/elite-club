@@ -1,0 +1,31 @@
+:root {
+	--orange: #F7A743;
+	--accent-500: #FBB35A;
+	--graphite-100: #F5F5F4;
+	--graphite-500: #857C75;
+	--graphite-800: #302B28;
+	--graphite-1000: #0D0C0C;
+	--suisse-font: 'Suisse Intl', sans-serif;
+	--inter-font: 'Inter', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-width: 320px;
+	background-color: var(--graphite-1000);
+	color: var(--graphite-100);
+	line-height: 1.5;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	font-family: var(--inter-font);
+}
+
+button {
+	border: none;
+	background: none;
+}
