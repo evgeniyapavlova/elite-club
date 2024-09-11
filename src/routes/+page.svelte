@@ -1,6 +1,8 @@
 <script>
 	import meta_img from '$lib/images/meta__img__en.jpg';
 	import Faq from '../components/FAQ/FAQ.svelte';
+	import Registration from '../components/Registration/Registration.svelte';
+	import Benefits from '../components/Benefits/Benefits.svelte';
 	const title = 'Welcome to IQ Option Elite Club';
 	const desc = 'The highest tier of our new loyalty program you’ve been selected to be a part.';
 </script>
@@ -17,4 +19,6 @@
 	<meta name="twitter:image" content={meta_img} />
 </svelte:head>
 
+<Benefits />
+<Registration />
 <Faq />

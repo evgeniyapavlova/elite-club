@@ -1,12 +1,13 @@
 <script>
+	import TextLink from '../common/TextLink.svelte';
 	const year = new Date().getFullYear();
 </script>
 
 <footer>
 	<div class="footer-links">
-		<a href="/" alt="Terms & Conditions">Terms & Conditions</a>
-		<a href="/" alt="Privacy policy">Privacy policy</a>
-		<a href="/" alt="Cookies policy">Cookies policy</a>
+		<TextLink href="/" alt="Terms & Conditions">Terms & Conditions</TextLink>
+		<TextLink href="/" alt="Privacy policy">Privacy policy</TextLink>
+		<TextLink href="/" alt="Cookies policy">Cookies policy</TextLink>
 	</div>
 
 	<div class="footer-info">
@@ -47,40 +48,6 @@
 		padding: 96px 80px 40px;
 	}
 
-	a {
-		color: var(--graphite-500);
-		text-decoration: none;
-		display: inline-block;
-		padding-bottom: 2px;
-		margin-right: 32px;
-
-		position: relative;
-	}
-
-	a::after {
-		left: 50%;
-	}
-
-	a::before,
-	a::after {
-		content: '';
-		position: absolute;
-		bottom: 0;
-		width: 50%;
-		transition: width ease-out 0.2s;
-		height: 1px;
-		background-color: #533b1d;
-	}
-	a::before {
-		right: 50%;
-	}
-
-	a:hover::after,
-	a:hover::before {
-		width: 0;
-		/* padding: 0 0; */
-	}
-
 	.footer-info {
 		margin: 32px 0;
 	}
@@ -88,5 +55,8 @@
 	.footer-copyright {
 		display: flex;
 		justify-content: space-between;
+	}
+	:global(.footer-links a) {
+		margin-right: 32px;
 	}
 </style>
