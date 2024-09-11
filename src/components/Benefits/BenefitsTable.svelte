@@ -1,47 +1,29 @@
 <script>
 	import IconCheck from './svg/IconCheck.svelte';
 	import IconClose from './svg/IconClose.svelte';
-
-	const items = [
-		{
-			label: 'IQ Options Elite Status',
-			star: true,
-			legend: true
-		},
-		{
-			label: 'Elite Account Manager',
-			caption:
-				'Personal manager to assist you with all things trading, and keep you informed about the benefits',
-			star: false,
-			legend: true
-		},
-		{
-			label: 'Exclusive Services From the Best Professionals',
-			caption: 'Welth, Tax advisory, Social Media and travel management',
-			star: false,
-			legend: true
-		}
-	];
+	export let items;
 </script>
 
 <table>
 	<thead>
 		<td></td>
-		<td
-			><h5>Star</h5>
-			By default</td
-		>
-		<td
-			><h5>Legend</h5>
-			Profiled users</td
-		>
+		<td>
+			<h5>Star</h5>
+			By default
+		</td>
+		<td>
+			<h5>Legend</h5>
+			Profiled users
+		</td>
 	</thead>
 	<tbody>
 		{#each items as item}
 			<tr>
 				<td>
 					<div class="text-wrap">
-						<h5>{item.label}</h5>
+						<h5>
+							{item.label}
+						</h5>
 						{#if item.caption}
 							{item.caption}
 						{/if}

@@ -1,8 +1,73 @@
 <script>
+	import { fly, fade } from 'svelte/transition';
+	import InView from '../common/InView.svelte';
 	import IconEliteClub from './svg/IconEliteClub.svelte';
 	import SectionNoBgr from '../common/SectionNoBgr.svelte';
 	import BenefitsMenu from './BenefitsMenu.svelte';
 	import BenefitsTable from './BenefitsTable.svelte';
+	let active = 0;
+	const items = [
+		[
+			{
+				label: 'IQ Options Elite Status',
+				star: true,
+				legend: true
+			},
+			{
+				label: 'Elite Account Manager',
+				caption:
+					'Personal manager to assist you with all things trading, and keep you informed about the benefits',
+				star: false,
+				legend: true
+			},
+			{
+				label: 'Exclusive Services From the Best Professionals',
+				caption: 'Welth, Tax advisory, Social Media and travel management',
+				star: false,
+				legend: true
+			}
+		],
+		[
+			{
+				label: 'EDUCATION',
+				star: true,
+				legend: true
+			},
+			{
+				label: 'EDUCATION',
+				caption:
+					'Personal manager to assist you with all things trading, and keep you informed about the benefits',
+				star: false,
+				legend: true
+			}
+		],
+		[
+			{
+				label: 'EXPERIENCE',
+				star: true,
+				legend: true
+			},
+			{
+				label: 'EXPERIENCE',
+				caption: 'EXPERIENCE',
+				star: false,
+				legend: true
+			}
+		],
+		[
+			{
+				label: 'GIFTS',
+				star: true,
+				legend: true
+			},
+			{
+				label: 'GIFTS',
+				caption: 'GIFTS',
+				star: false,
+				legend: true
+			}
+		]
+	];
 </script>
 
 <SectionNoBgr>
@@ -10,16 +75,22 @@
 		<div class="icon-wrap">
 			<IconEliteClub />
 		</div>
-		<h3>
-			Explore the benefits<br /> of being Elite
-		</h3>
+		<InView>
+			<h3>
+				Explore the benefits<br /> of being Elite
+			</h3>
+		</InView>
 
-		<BenefitsMenu />
+		<BenefitsMenu bind:active />
 
-		<BenefitsTable />
+		{#each items.filter((_, index) => index === active) as item (active)}
+			<div class="table-wrap" in:fly={{ x: -600, duration: 700 }}>
+				<BenefitsTable items={item} />
+			</div>
+		{/each}
 
 		<div class="button-wrap">
-			<a href="/" alt="Join the club" class="button button-small">Join the club</a>
+			<a href="#registration" alt="Join the club" class="button button-small">Join the club</a>
 		</div>
 	</div>
 </SectionNoBgr>

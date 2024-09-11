@@ -2,16 +2,23 @@
 	import H2 from '../common/H2.svelte';
 	import EliteTag from '../common/EliteTag.svelte';
 	import TextLink from '../common/TextLink.svelte';
+	import InView from '../common/InView.svelte';
 </script>
 
-<section>
+<section id="registration">
 	<div class="wrap">
 		<div class="wrap-text">
 			<div class="wrap-tag">
-				<EliteTag />
+				<InView>
+					<EliteTag />
+				</InView>
 			</div>
-			<H2>Exclusive.<br />Rewarding.<br />Personalized.</H2>
-			<div class="welcome-text">Welcome to the club, honey</div>
+			<InView>
+				<H2>Exclusive.<br />Rewarding.<br />Personalized.</H2></InView
+			>
+			<InView>
+				<div class="welcome-text">Welcome to the club, honey</div></InView
+			>
 		</div>
 		<div class="wrap-form">
 			<p class="form-head-text">

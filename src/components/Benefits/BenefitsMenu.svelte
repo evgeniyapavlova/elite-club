@@ -7,12 +7,18 @@
 	const icons = [IconServices, IconEducation, IconExperience, IconGifts];
 
 	const items = ['Services', 'Education', 'Experience', 'Gifts'];
+
+	export let active;
+
+	function toggleActive(index) {
+		active = index;
+	}
 </script>
 
 <div class="benefits-menu-wrap">
 	<ul class="benefits-menu">
 		{#each items as item, index}
-			<li class={index === 0 && 'active'}>
+			<li class={index === active && 'active'} on:click={() => toggleActive(index)}>
 				<div class="icon-wrap">
 					<svelte:component this={icons[index]} />
 				</div>
