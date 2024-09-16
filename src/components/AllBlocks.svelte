@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import Screens from './Screens/Screens.svelte';
+	import Faq from './FAQ/FAQ.svelte';
 
 	export let lang;
 
@@ -24,6 +25,10 @@
 	});
 </script>
 
-{#if translation?.screens}
+<!-- {#if translation?.screens}
 	<Screens content={translation.screens} />
+{/if} -->
+
+{#if translation?.faq}
+	<Faq content={translation.faq} />
 {/if}

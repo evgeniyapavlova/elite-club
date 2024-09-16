@@ -19,7 +19,7 @@
 	</button>
 
 	{#if open}
-		<div class="answer" transition:slide>{a}</div>
+		<div class="answer" transition:slide>{@html a}</div>
 	{/if}
 </div>
 
@@ -44,6 +44,17 @@
 		margin-top: 20px;
 		color: var(--graphite-500);
 		padding-bottom: 12px;
+	}
+
+	:global(.answer p) {
+		margin-bottom: 15px;
+	}
+	:global(.answer ul li) {
+		margin-bottom: 8px;
+	}
+	:global(.answer ul) {
+		padding-inline-start: 26px;
+		margin-bottom: 15px;
 	}
 
 	.accordion-item {
@@ -112,7 +123,7 @@
 		height: 0;
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 960px) {
 		.item-label {
 			font-size: 16px;
 			gap: 4px;

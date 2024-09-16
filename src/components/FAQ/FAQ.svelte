@@ -4,28 +4,13 @@
 	import SectionNoBgr from '../common/SectionNoBgr.svelte';
 	import InView from '../common/InView.svelte';
 
-	const items = [
-		{
-			q: 'What is IQ Option Elite about?',
-			a: 'IQ Option Elite is an exclusive loyalty program designed to reward our most valued members with exceptional benefits and personalized experiences. As one of our most valued clients, your exceptional engagement and loyalty have earned you a place in IQ Option Elite.'
-		},
-		{
-			q: 'What is IQ Option Elite about?',
-			a: 'IQ Option Elite is an exclusive loyalty program designed to reward our most valued members with exceptional benefits and personalized experiences. As one of our most valued clients, your exceptional engagement and loyalty have earned you a place in IQ Option Elite.'
-		},
-		{
-			q: 'What is IQ Option Elite about?',
-			a: 'IQ Option Elite is an exclusive loyalty program designed to reward our most valued members with exceptional benefits and personalized experiences. As one of our most valued clients, your exceptional engagement and loyalty have earned you a place in IQ Option Elite.'
-		},
-		{
-			q: 'What is IQ Option Elite about?',
-			a: 'IQ Option Elite is an exclusive loyalty program designed to reward our most valued members with exceptional benefits and personalized experiences. As one of our most valued clients, your exceptional engagement and loyalty have earned you a place in IQ Option Elite.'
-		}
-	];
+	export let content;
+
+	const items = content.items;
 </script>
 
 <SectionNoBgr>
-	<InView><H2>Any questions left?</H2></InView>
+	<InView><H2>{content.heading}</H2></InView>
 
 	<div class="faq-content">
 		{#each items as item, idx}
