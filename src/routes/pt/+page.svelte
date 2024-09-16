@@ -1,9 +1,10 @@
 <script>
-	import meta_img from '$lib/images/meta__img__pt.jpg';
+	import meta_img from '$lib/images/meta__img__en.jpg';
 	import AllBlocks from '../../components/AllBlocks.svelte';
 
-	const title = 'PARABÉNS!';
-	const desc = 'Você foi selecionado como vencedor entre todos os usuários!';
+	const title = 'Bem-vindo ao IQ Option Elite Club';
+	const desc =
+		'O nível mais alto do nosso novo programa de fidelidade para o qual você foi selecionado.';
 </script>
 
 <svelte:head>

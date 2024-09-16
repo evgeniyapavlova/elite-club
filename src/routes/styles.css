@@ -21,7 +21,7 @@ html {
 }
 
 body {
-	min-width: 320px;
+	min-width: 300px;
 	background-color: var(--graphite-1000);
 	color: var(--graphite-100);
 	line-height: 1.5;

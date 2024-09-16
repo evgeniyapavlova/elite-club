@@ -7,7 +7,7 @@
 
 <div
 	class="wrapper"
-	use:inview={{ unobserveOnEnter: true, rootMargin: '5%', threshold: '0.5' }}
+	use:inview={{ unobserveOnEnter: true, rootMargin: '5%', threshold: '0.8' }}
 	on:change={({ detail }) => {
 		isInView = detail.inView;
 	}}
@@ -28,11 +28,11 @@
 	}
 	.visible {
 		opacity: 1;
-		transform: translateX(0);
+		transform: translateY(0);
 	}
 
 	.hidden {
 		opacity: 0;
-		transform: translateX(-100px);
+		transform: translateY(50px);
 	}
 </style>

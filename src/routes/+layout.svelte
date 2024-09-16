@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-	// import Header from '../components/Header.svelte';
+
 	import Footer from '../components/Footer/Footer.svelte';
 
 	import './styles.css';
@@ -13,15 +13,60 @@
 			isStyleLoaded = true;
 		}
 	}
+
+	const lazyLoadBackgrounds = () => {
+		const setBackgroundImage = (element) => {
+			const bgImage = element.getAttribute('data-bgimage');
+			if (bgImage) {
+				element.style.backgroundImage = `url(${bgImage})`;
+			}
+		};
+
+		const observer = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						setBackgroundImage(entry.target);
+						observer.unobserve(entry.target);
+					}
+				});
+			},
+			{
+				root: null,
+				threshold: 0.1
+			}
+		);
+
+		const observeElements = () => {
+			const elements = document.querySelectorAll('.has-bgr');
+			elements.forEach((element) => {
+				if (!element.style.backgroundImage) {
+					observer.observe(element);
+				}
+			});
+		};
+
+		const mutationObserver = new MutationObserver(() => {
+			observeElements();
+		});
+
+		mutationObserver.observe(document.body, {
+			childList: true,
+			subtree: true
+		});
+
+		observeElements();
+	};
+
 	onMount(() => {
 		loadStyle();
+		lazyLoadBackgrounds();
 	});
 </script>
 
 <div class="app">
-	<!-- <Header /> -->
 	<slot />
-	<Footer />
+	<!-- <Footer /> -->
 </div>
 
 <style>

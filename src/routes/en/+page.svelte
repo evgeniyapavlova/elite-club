@@ -1,6 +1,6 @@
 <script>
 	import meta_img from '$lib/images/meta__img__en.jpg';
-	import AllBlocks from '../components/AllBlocks.svelte';
+	import AllBlocks from '../../components/AllBlocks.svelte';
 
 	const title = 'Welcome to IQ Option Elite Club';
 	const desc = 'The highest tier of our new loyalty program you’ve been selected to be a part.';

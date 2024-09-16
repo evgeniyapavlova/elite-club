@@ -83,11 +83,13 @@
 
 		<BenefitsMenu bind:active />
 
-		{#each items.filter((_, index) => index === active) as item (active)}
-			<div class="table-wrap" in:fly={{ x: -600, duration: 700 }}>
-				<BenefitsTable items={item} />
-			</div>
-		{/each}
+		<InView>
+			{#each items.filter((_, index) => index === active) as item (active)}
+				<div class="table-wrap" in:fly={{ y: 50, duration: 700 }}>
+					<BenefitsTable items={item} />
+				</div>
+			{/each}
+		</InView>
 
 		<div class="button-wrap">
 			<a href="#registration" alt="Join the club" class="button button-small">Join the club</a>

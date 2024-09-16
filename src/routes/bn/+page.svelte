@@ -1,9 +1,9 @@
 <script>
 	import meta_img from '$lib/images/meta__img__en.jpg';
-	import AllBlocks from '../components/AllBlocks.svelte';
+	import AllBlocks from '../../components/AllBlocks.svelte';
 
-	const title = 'Welcome to IQ Option Elite Club';
-	const desc = 'The highest tier of our new loyalty program you’ve been selected to be a part.';
+	const title = 'IQ Option এলিট ক্লাবে স্বাগতম';
+	const desc = 'আমাদের লয়ালটি প্রোগ্রামের সর্বোচ্চ স্তরে অংশ নিতে আপনাকে নির্বাচন করা হয়েছে।';
 </script>
 
 <svelte:head>
@@ -18,4 +18,4 @@
 	<meta name="twitter:image" content={meta_img} />
 </svelte:head>
 
-<AllBlocks lang="en" />
+<AllBlocks lang="bn" />

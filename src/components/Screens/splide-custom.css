@@ -1,0 +1,41 @@
+.splide__pagination__page {
+    background: none;
+    transform: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.splide__pagination__page::before {
+    display: block;
+    color: white;
+    font-family: 'Inter';
+}
+
+.splide__pagination__page.is-active {
+    background: none;
+    transform: none;
+    width: 49px;
+}
+
+.splide__pagination__page.is-active::after {
+    content: '';
+    display: block;
+    min-width: 32px;
+    height: 1px;
+    background-color: var(--graphite-500);
+    background-image: linear-gradient(90deg, var(--graphite-100) 0%, var(--graphite-100) 50%, var(--graphite-500) 50%, var(--graphite-500) 100%);
+    transition: all 0.2s ease-out;
+}
+
+.splide__pagination {
+    display: flex;
+    transition: all 0.2s ease-out;
+    counter-reset: pagination-num;
+    padding-bottom: 31px;
+}
+
+.splide__pagination__page:before {
+    counter-increment: pagination-num;
+    content: counter(pagination-num);
+}

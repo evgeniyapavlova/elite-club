@@ -2,6 +2,7 @@
 	import H2 from '../common/H2.svelte';
 	import Accordion from '../common/Accordion.svelte';
 	import SectionNoBgr from '../common/SectionNoBgr.svelte';
+	import InView from '../common/InView.svelte';
 
 	const items = [
 		{
@@ -24,7 +25,7 @@
 </script>
 
 <SectionNoBgr>
-	<H2>Any questions left?</H2>
+	<InView><H2>Any questions left?</H2></InView>
 
 	<div class="faq-content">
 		{#each items as item, idx}
