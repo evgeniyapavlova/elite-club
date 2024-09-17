@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import EliteTag from '../common/EliteTag.svelte';
 	import TextLink from '../common/TextLink.svelte';
 	import InView from '../common/InView.svelte';
@@ -35,9 +36,9 @@
 			/>
 			<p class="form-terms-text">
 				{terms[0]}
-				<TextLink href="/">{terms[1]}</TextLink>
+				<TextLink href={base}>{terms[1]}</TextLink>
 				{terms[2]}
-				<TextLink href="/">{terms[3]}</TextLink>
+				<TextLink href={base}>{terms[3]}</TextLink>
 			</p>
 		</div>
 	</div>

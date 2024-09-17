@@ -1,13 +1,14 @@
 <script>
+	import { base } from '$app/paths';
 	import TextLink from '../common/TextLink.svelte';
 	const year = new Date().getFullYear();
 </script>
 
 <footer>
 	<div class="footer-links">
-		<TextLink href="/" alt="Terms & Conditions">Terms & Conditions</TextLink>
-		<TextLink href="/" alt="Privacy policy">Privacy policy</TextLink>
-		<TextLink href="/" alt="Cookies policy">Cookies policy</TextLink>
+		<TextLink href={base} alt="Terms & Conditions">Terms & Conditions</TextLink>
+		<TextLink href={base} alt="Privacy policy">Privacy policy</TextLink>
+		<TextLink href={base} alt="Cookies policy">Cookies policy</TextLink>
 	</div>
 
 	<div class="footer-info">

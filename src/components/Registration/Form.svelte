@@ -1,7 +1,7 @@
 <script>
 	import { slide } from 'svelte/transition';
 	import Arrow from './Arrow.svelte';
-	export let labels, placeholders, options, button;
+	export let labels, options, button;
 
 	let isOpen = false;
 

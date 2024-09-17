@@ -1,5 +1,5 @@
 <script>
-	export let href, alt;
+	export let href;
 </script>
 
 <a {href}><slot /></a>
