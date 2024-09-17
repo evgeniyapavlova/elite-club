@@ -7,7 +7,7 @@
 	--graphite-900: #1B1918;
 	--graphite-1000: #0D0C0C;
 	--suisse-font: 'Suisse Intl', sans-serif;
-	--inter-font: 'Inter', sans-serif;
+	--inter-font: 'Inter', Arial, sans-serif;
 	--text-gradient: linear-gradient(-45deg, #ffbe70, #fff);
 }
 
@@ -34,6 +34,7 @@ body {
 button {
 	border: none;
 	background: none;
+	font-family: inherit;
 }
 
 .button {

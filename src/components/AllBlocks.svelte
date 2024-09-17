@@ -1,10 +1,12 @@
 <script>
 	import { onMount } from 'svelte';
+	import Intro from './Intro/Intro.svelte';
 	import Intro2 from './Intro2/Intro2.svelte';
 	import Screens from './Screens/Screens.svelte';
 	import Benefits from './Benefits/Benefits.svelte';
 	import Faq from './FAQ/FAQ.svelte';
 	import introBgr from './Intro2/img/intro2-bgr.webp';
+	import Header from './Header/Header.svelte';
 
 	export let lang;
 
@@ -28,7 +30,13 @@
 	});
 </script>
 
-<div class="intro2-bgr has-bgr" data-bgimage={introBgr}>
+<Header {lang} />
+
+{#if translation?.intro}
+	<Intro content={translation.intro} />
+{/if}
+
+<!-- <div class="intro2-bgr has-bgr" data-bgimage={introBgr}>
 	{#if translation?.intro2}
 		<Intro2 content={translation.intro2} />
 	{/if}
@@ -43,7 +51,7 @@
 
 {#if translation?.faq}
 	<Faq content={translation.faq} />
-{/if}
+{/if} -->
 
 <style>
 	.intro2-bgr {
