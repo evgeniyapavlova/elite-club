@@ -1,6 +1,6 @@
 export default {
 	intro: {
-		h1: 'IQ Option Elite Club me aapka svaagat hai',
+		h1: 'IQ Option Elite Club<br /> me aapka svaagat hai',
 		h1_caption:
 			'Aapko hamaare naye loyalty program ke uchchtar hissa bannne ke liye chuna gaya hai.',
 		button: 'Elite me shamil hon',

@@ -1,6 +1,6 @@
 export default {
 	intro: {
-		h1: 'Selamat Datang di Elite Club IQ Option',
+		h1: 'Selamat Datang di <br />Elite Club IQ Option',
 		h1_caption: 'Anda terpilih menjadi bagian dari tingkat tertinggi program loyalitas baru kami.',
 		button: 'Bergabunglah dengan Para Elite',
 		button_caption: 'Sepenuhnya gratis',

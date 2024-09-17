@@ -6,7 +6,6 @@
 	import Benefits from './Benefits/Benefits.svelte';
 	import Faq from './FAQ/FAQ.svelte';
 	import introBgr from './Intro2/img/intro2-bgr.webp';
-	import Header from './Header/Header.svelte';
 
 	export let lang;
 
@@ -30,10 +29,8 @@
 	});
 </script>
 
-<Header {lang} />
-
 {#if translation?.intro}
-	<Intro content={translation.intro} />
+	<Intro content={translation.intro} {lang} />
 {/if}
 
 <!-- <div class="intro2-bgr has-bgr" data-bgimage={introBgr}>

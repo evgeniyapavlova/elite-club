@@ -38,7 +38,7 @@
 
 <style>
 	menu {
-		background: rgba(0, 0, 0, 0.05);
+		background: rgba(0, 0, 0, 0.15);
 		cursor: pointer;
 		position: absolute;
 		top: 48px;

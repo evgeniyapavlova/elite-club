@@ -27,6 +27,10 @@
 		header {
 			padding: 22px 32px;
 		}
+		:global(header svg) {
+			height: 20px;
+			width: 138px;
+		}
 	}
 
 	@media screen and (max-width: 600px) {

@@ -1,6 +1,6 @@
 export default {
 	intro: {
-		h1: 'Willkommen beim IQ Option Elite Club',
+		h1: 'Willkommen beim<br /> IQ Option Elite Club',
 		h1_caption: 'Die höchste Stufe unseres neuen Treueprogramms, an dem Sie teilnehmen können.',
 		button: 'Der Elite beitreten',
 		button_caption: 'Es ist absolut kostenlos für Sie',

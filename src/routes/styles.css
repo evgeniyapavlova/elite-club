@@ -2,6 +2,7 @@
 	--orange: #F7A743;
 	--accent-500: #FBB35A;
 	--graphite-100: #F5F5F4;
+	--graphite-400: #A9A29D;
 	--graphite-500: #857C75;
 	--graphite-800: #302B28;
 	--graphite-900: #1B1918;
@@ -52,7 +53,7 @@ button {
 	text-align: center;
 	display: inline-block;
 	text-decoration: none;
-	width: 100%;
+
 }
 
 .button.button-small span {
