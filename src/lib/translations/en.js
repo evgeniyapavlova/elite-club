@@ -1,4 +1,15 @@
 export default {
+	registration: {
+		title: 'Exclusive.<br />Rewarding.<br /> Personalized.',
+		welcome: 'Welcome to the club, honey',
+		fill_form:
+			'Fill out the form to join the club. Our managers will contact you to tell you about all the features of the program',
+		contact: 'How would you like to contact',
+		email: 'E-mail',
+		telegram: 'Telegram',
+		button: 'Send request',
+		terms: ['By continuing you accept our', 'Terms & Conditions', 'and', 'Privacy policy']
+	},
 	intro: {
 		h1: 'Welcome to<br /> IQ Option Elite Club',
 		h1_caption: 'The highest tier of our new loyalty program you’ve been selected to be a part.',

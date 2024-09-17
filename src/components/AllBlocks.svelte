@@ -6,6 +6,7 @@
 	import Benefits from './Benefits/Benefits.svelte';
 	import Faq from './FAQ/FAQ.svelte';
 	import introBgr from './Intro2/img/intro2-bgr.webp';
+	import Registration from './Registration/Registration.svelte';
 
 	export let lang;
 
@@ -29,9 +30,9 @@
 	});
 </script>
 
-{#if translation?.intro}
+<!-- {#if translation?.intro}
 	<Intro content={translation.intro} {lang} />
-{/if}
+{/if} -->
 
 <!-- <div class="intro2-bgr has-bgr" data-bgimage={introBgr}>
 	{#if translation?.intro2}
@@ -49,6 +50,9 @@
 {#if translation?.faq}
 	<Faq content={translation.faq} />
 {/if} -->
+{#if translation?.registration}
+	<Registration content={translation.registration} />
+{/if}
 
 <style>
 	.intro2-bgr {

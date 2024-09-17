@@ -1,4 +1,20 @@
 export default {
+	registration: {
+		title: 'Độc quyền.<br />Phần thưởng.<br />Cá nhân hóa.',
+		welcome: 'Chào mừng bạn đến với câu lạc bộ.',
+		fill_form:
+			'Điền vào biểu mẫu để tham gia câu lạc bộ. Quản lý của chúng tôi sẽ liên hệ với bạn để giới thiệu với bạn về tất cả các tính năng của chương trình',
+		contact: 'Bạn muốn chúng tôi liên hệ bằng cách nào',
+		email: 'E-mail',
+		telegram: 'Telegram',
+		button: 'Gửi yêu cầu',
+		terms: [
+			'Bằng cách tiếp tục, bạn chấp nhận',
+			'Điều khoản và Điều kiện',
+			'và',
+			'Chính sách quyền riêng tư'
+		]
+	},
 	intro: {
 		h1: 'Chào mừng bạn đến với Elite Club của IQ Option',
 		h1_caption:

@@ -1,4 +1,20 @@
 export default {
+	registration: {
+		title: 'Özel.<br />Tatmin edici.<br />Kişiselleştirilmiş.',
+		welcome: 'Kulübe hoş geldiniz',
+		fill_form:
+			'Kulübe katılmak için formu doldurun. Yöneticilerimiz programın tüm özellikleri hakkında bilgi vermek üzere sizinle iletişime geçecek',
+		contact: 'Sizinle nasıl iletişim kurmamızı istersiniz?',
+		email: 'E-posta',
+		telegram: 'Telegram',
+		button: 'İstek gönder',
+		terms: [
+			'Devam ederek şu belgelerimizi kabul etmiş olursunuz:',
+			'Hüküm ve Koşullar',
+			've',
+			'Gizlilik politikası'
+		]
+	},
 	intro: {
 		h1: "IQ Option Elite Club'a<br /> hoş geldiniz",
 		h1_caption: 'Parçası olmayı tercih ettiğiniz yeni sadakat programımızın en yüksek kademesi.',

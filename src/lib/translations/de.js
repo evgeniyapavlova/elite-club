@@ -1,4 +1,21 @@
 export default {
+	registration: {
+		title: 'Exklusiv.<br />Lohnend.<br />Personalisiert.',
+		welcome: 'Willkommen im Club',
+		fill_form:
+			'Füllen Sie das Formular aus, um dem Club beizutreten. Unsere Manager werden sich mit Ihnen in Verbindung setzen, um Sie über alle Funktionen des Programms zu informieren',
+		contact: 'Wie möchten Sie kontaktiert werden',
+		email: 'E-Mail',
+		telegram: 'Telegram',
+		button: 'Anfrage senden',
+		terms: [
+			'Wenn Sie fortsetzen, akzeptieren Sie unsere',
+			'Allgemeinen Geschäftsbedingungen',
+			'und die',
+			'Datenschutzrichtlinie'
+		]
+	},
+
 	intro: {
 		h1: 'Willkommen beim<br /> IQ Option Elite Club',
 		h1_caption: 'Die höchste Stufe unseres neuen Treueprogramms, an dem Sie teilnehmen können.',

@@ -1,4 +1,21 @@
 export default {
+	registration: {
+		title: 'Vishesh.<br />Rewarding.<br />Personalized.',
+		welcome: 'Club me aapka swaagat hai, priye',
+		fill_form:
+			'Club me shaamil hone ke liye form bharen. Is program ki sabhi visheshtaaon ke baare me bataane ke liye hamaare prabandhak aapse sampark karengen',
+		contact: 'Aap kaise sampark karna chahengen',
+		email: 'E-mail',
+		telegram: 'Telegram',
+		button: 'Anurodh bhejen',
+		terms: [
+			'Jaari rakhkar aap hamaare',
+			'Niyam aur Sharten',
+			'aur',
+			'Gopniyata Niti se sahmat hote hain'
+		]
+	},
+
 	intro: {
 		h1: 'IQ Option Elite Club<br /> me aapka svaagat hai',
 		h1_caption:

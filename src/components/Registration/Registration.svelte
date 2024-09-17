@@ -3,6 +3,9 @@
 	import EliteTag from '../common/EliteTag.svelte';
 	import TextLink from '../common/TextLink.svelte';
 	import InView from '../common/InView.svelte';
+	import Form from './Form.svelte';
+
+	export let content;
 </script>
 
 <section id="registration">
@@ -14,18 +17,21 @@
 				</InView>
 			</div>
 			<InView>
-				<H2>Exclusive.<br />Rewarding.<br />Personalized.</H2></InView
+				<H2>{@html content.title}</H2></InView
 			>
 			<InView>
-				<div class="welcome-text">Welcome to the club, honey</div></InView
+				<div class="welcome-text">{content.welcome}</div></InView
 			>
 		</div>
 		<div class="wrap-form">
 			<p class="form-head-text">
-				Fill out the form to join the club. Our managers will contact you to tell you about all the
-				features of the program
+				{content.fill_form}
 			</p>
-			<button class="button">Send request</button>
+			<Form
+				labels={[content.contact, content.email]}
+				options={[content.email, content.telegram]}
+				button={content.button}
+			/>
 			<p class="form-terms-text">
 				By continuing you accept our <TextLink href="/">Terms & Conditions</TextLink> and
 				<TextLink href="/">Privacy policy</TextLink>
@@ -53,6 +59,9 @@
 	}
 	.welcome-text {
 		margin-top: 146px;
+		color: var(--graphite-300);
+		font-size: 16px;
+		line-height: 1.5;
 	}
 	.wrap-form {
 		max-width: 408px;

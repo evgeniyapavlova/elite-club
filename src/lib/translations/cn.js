@@ -1,4 +1,15 @@
 export default {
+	registration: {
+		title: '独家。<br />有益。<br />个性化。',
+		welcome: '欢迎加入俱乐部，亲爱的',
+		fill_form: '填写表格加入俱乐部。我们的经理将与您联系，告诉您该计划的所有功能',
+		contact: '您希望如何联系',
+		email: '电子邮件',
+		telegram: 'Telegram',
+		button: '发送请求',
+		terms: ['继续即表示您接受我们的', '条款和条件', '和', '隐私政策']
+	},
+
 	intro: {
 		h1: '欢迎来到 IQ Option 精英俱乐部',
 		h1_caption: '您已被选为我们新忠诚度计划的最高级别的一份子。',
