@@ -32,9 +32,9 @@
 
 <!-- {#if translation?.intro}
 	<Intro content={translation.intro} {lang} />
-{/if} -->
+{/if}
 
-<!-- <div class="intro2-bgr has-bgr" data-bgimage={introBgr}>
+<div class="intro2-bgr has-bgr" data-bgimage={introBgr}>
 	{#if translation?.intro2}
 		<Intro2 content={translation.intro2} />
 	{/if}
@@ -45,14 +45,15 @@
 
 {#if translation?.benefits}
 	<Benefits content={translation.benefits} />
+{/if} -->
+
+{#if translation?.registration}
+	<Registration content={translation.registration} {lang} />
 {/if}
 
-{#if translation?.faq}
+<!-- {#if translation?.faq}
 	<Faq content={translation.faq} />
 {/if} -->
-{#if translation?.registration}
-	<Registration content={translation.registration} />
-{/if}
 
 <style>
 	.intro2-bgr {

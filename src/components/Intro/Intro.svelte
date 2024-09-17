@@ -83,10 +83,6 @@
 		width: 100%;
 	}
 	h1 {
-		color: white;
-		background: var(--text-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
 		font-size: 72px;
 		line-height: 88px;
 	}

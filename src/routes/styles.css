@@ -93,9 +93,11 @@ button {
 	padding: 20px 26px;
 }
 
-h3 {
+h3,
+h1,
+h2 {
 	color: white;
-	background: -webkit-linear-gradient(-45deg, #fff, #FFBE70);
+	background: var(--text-gradient);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 

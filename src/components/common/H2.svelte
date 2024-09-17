@@ -4,10 +4,6 @@
 	h2 {
 		font-size: 72px;
 		line-height: 1.2;
-		color: var(--graphite-100);
-		background: var(--text-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
 	}
 	@media screen and (max-width: 960px) {
 		h2 {
