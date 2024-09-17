@@ -30,7 +30,7 @@
 	});
 </script>
 
-<!-- {#if translation?.intro}
+{#if translation?.intro}
 	<Intro content={translation.intro} {lang} />
 {/if}
 
@@ -45,15 +45,15 @@
 
 {#if translation?.benefits}
 	<Benefits content={translation.benefits} />
-{/if} -->
+{/if}
 
 {#if translation?.registration}
 	<Registration content={translation.registration} {lang} />
 {/if}
 
-<!-- {#if translation?.faq}
+{#if translation?.faq}
 	<Faq content={translation.faq} />
-{/if} -->
+{/if}
 
 <style>
 	.intro2-bgr {

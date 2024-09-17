@@ -10,7 +10,7 @@
 	<div class="content">
 		<div class="text-content">
 			<InView><h1>{@html content.h1}</h1></InView>
-			<div class="h1_caption">{@html content.h1_caption}</div>
+			<InView><div class="h1_caption">{@html content.h1_caption}</div></InView>
 			<div class="button-wrap">
 				<a href="#registration" alt="Join the club" class="button button-small"
 					><span>{content.button}</span></a
