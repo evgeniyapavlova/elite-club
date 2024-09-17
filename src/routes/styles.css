@@ -8,6 +8,7 @@
 	--graphite-1000: #0D0C0C;
 	--suisse-font: 'Suisse Intl', sans-serif;
 	--inter-font: 'Inter', sans-serif;
+	--text-gradient: linear-gradient(-45deg, #ffbe70, #fff);
 }
 
 * {

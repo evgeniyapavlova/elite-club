@@ -5,7 +5,7 @@
 		font-size: 72px;
 		line-height: 1.2;
 		color: var(--graphite-100);
-		background: -webkit-linear-gradient(-45deg, #fff, #ffbe70);
+		background: var(--text-gradient);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
