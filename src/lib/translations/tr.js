@@ -1,4 +1,11 @@
 export default {
+	intro: {
+		h1: "IQ Option Elite Club'a hoş geldiniz",
+		h1_caption: 'Parçası olmayı tercih ettiğiniz yeni sadakat programımızın en yüksek kademesi.',
+		button: "Elite Club'a katıl",
+		button_caption: 'Sizin için tamamen ücretsiz',
+		scroll_text: 'Keşfetmek için kaydırın'
+	},
 	intro2: 'Benzersiz avantajlarla yatırım yolculuğunuzun seviyesini yükseltin.',
 	screens: {
 		items: [

@@ -1,4 +1,12 @@
 export default {
+	intro: {
+		h1: 'Bienvenido al Club Elite de IQ Option',
+		h1_caption:
+			'El nivel más alto de nuestro nuevo programa de fidelidad del que has sido seleccionado para formar parte.',
+		button: 'Únete a la Elite',
+		button_caption: 'Es totalmente gratis para ti',
+		scroll_text: 'Haz scroll para descubrirlo'
+	},
 	intro2: 'Eleva tu nivel de trading con ventajas inigualables.',
 	screens: {
 		items: [

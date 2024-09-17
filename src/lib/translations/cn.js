@@ -1,4 +1,11 @@
 export default {
+	intro: {
+		h1: '欢迎来到 IQ Option 精英俱乐部',
+		h1_caption: '您已被选为我们新忠诚度计划的最高级别的一份子。',
+		button: '加入精英',
+		button_caption: '对你来说完全免费',
+		scroll_text: '滚动查看'
+	},
 	intro2: '通过无与伦比的优势提升您的交易之旅。',
 	screens: {
 		items: [
