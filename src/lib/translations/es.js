@@ -1,4 +1,5 @@
 export default {
+	intro2: 'Eleva tu nivel de trading con ventajas inigualables.',
 	screens: {
 		items: [
 			{

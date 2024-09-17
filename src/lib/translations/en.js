@@ -1,4 +1,5 @@
 export default {
+	intro2: 'Elevate your trading journey with unmatched benefits.',
 	benefits: {
 		heading: 'Explore the benefits<br /> of being Elite',
 		thead: [

@@ -1,4 +1,5 @@
 export default {
+	intro2: 'Bejod laabh ke saath apni trading yatra ko unnat karen.',
 	screens: {
 		items: [
 			{

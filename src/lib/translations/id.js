@@ -1,4 +1,5 @@
 export default {
+	intro2: 'Tingkatkan pengalaman trading Anda dengan manfaat tak tertandingi.',
 	screens: {
 		items: [
 			{

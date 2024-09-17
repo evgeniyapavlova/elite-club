@@ -1,4 +1,5 @@
 export default {
+	intro2: 'Verbessern Sie Ihre Handelsaktivitäten mit unübertroffenen Vorteilen.',
 	screens: {
 		items: [
 			{

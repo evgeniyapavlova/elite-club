@@ -1,4 +1,5 @@
 export default {
+	intro2: 'Förbättra din handelsresa med oöverträffade förmåner.',
 	screens: {
 		items: [
 			{

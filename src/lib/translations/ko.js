@@ -1,4 +1,5 @@
 export default {
+	intro2: '비교할 수 없는 혜택을 통해 여러분의 거래 여정을 향상시키세요.',
 	screens: {
 		items: [
 			{

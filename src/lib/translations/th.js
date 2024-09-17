@@ -1,4 +1,5 @@
 export default {
+	intro2: 'ยกระดับการเทรดด้วยสิทธิประโยชน์ที่เหนือกว่า',
 	screens: {
 		items: [
 			{

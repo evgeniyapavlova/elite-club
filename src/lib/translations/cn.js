@@ -1,4 +1,5 @@
 export default {
+	intro2: '通过无与伦比的优势提升您的交易之旅。',
 	screens: {
 		items: [
 			{

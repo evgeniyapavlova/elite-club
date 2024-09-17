@@ -1,4 +1,5 @@
 export default {
+	intro2: 'बेजोड़ लाभ के साथ अपनी ट्रेडिंग यात्रा को उन्नत करें।',
 	screens: {
 		items: [
 			{

@@ -1,4 +1,5 @@
 export default {
+	intro2: 'Eleva il tuo percorso di trading con benefici senza paragoni.',
 	screens: {
 		items: [
 			{

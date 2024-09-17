@@ -1,4 +1,5 @@
 export default {
+	intro2: 'Đưa hành trình giao dịch lên tầm cao mới với những quyền lợi có một không hai.',
 	screens: {
 		items: [
 			{

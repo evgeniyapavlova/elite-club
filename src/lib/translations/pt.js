@@ -1,4 +1,5 @@
 export default {
+	intro2: 'Eleve sua jornada de negociação com benefícios inigualáveis.',
 	screens: {
 		items: [
 			{

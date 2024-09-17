@@ -1,4 +1,5 @@
 export default {
+	intro2: 'Benzersiz avantajlarla yatırım yolculuğunuzun seviyesini yükseltin.',
 	screens: {
 		items: [
 			{

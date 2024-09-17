@@ -1,4 +1,5 @@
 export default {
+	intro2: 'Améliorez votre parcours de trading avec des avantages inégalés.',
 	screens: {
 		items: [
 			{
