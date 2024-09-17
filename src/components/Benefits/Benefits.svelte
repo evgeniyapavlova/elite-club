@@ -1,105 +1,157 @@
 <script>
-	import { fly, fade } from 'svelte/transition';
+	import { onMount } from 'svelte';
+	import { fly } from 'svelte/transition';
 	import InView from '../common/InView.svelte';
 	import IconEliteClub from './svg/IconEliteClub.svelte';
 	import SectionNoBgr from '../common/SectionNoBgr.svelte';
 	import BenefitsMenu from './BenefitsMenu.svelte';
 	import BenefitsTable from './BenefitsTable.svelte';
+	import BenefitsTableMobile from './BenefitsTableMobile.svelte';
+	import { checkmarks } from './checkmarks';
+	import BenefitsMenuMobile from './BenefitsMenuMobile.svelte';
+	import benefitsBgr from './img/benefits-bgr.webp';
+
 	let active = 0;
-	const items = [
-		[
-			{
-				label: 'IQ Options Elite Status',
-				star: true,
-				legend: true
-			},
-			{
-				label: 'Elite Account Manager',
-				caption:
-					'Personal manager to assist you with all things trading, and keep you informed about the benefits',
-				star: false,
-				legend: true
-			},
-			{
-				label: 'Exclusive Services From the Best Professionals',
-				caption: 'Welth, Tax advisory, Social Media and travel management',
-				star: false,
-				legend: true
+
+	export let content;
+
+	const { items_services, items_education, items_experience, items_gifts } = content;
+
+	const items = [items_services, items_education, items_experience, items_gifts];
+
+	const targetId = 'benefits-button';
+	let isScrolledToElement = false;
+
+	onMount(() => {
+		const target = document.getElementById(targetId);
+
+		const handleScroll = () => {
+			const rect = target.getBoundingClientRect();
+			const windowHeight = window.innerHeight;
+
+			if (rect.top >= 0 && rect.top <= windowHeight) {
+				isScrolledToElement = true;
+			} else {
+				isScrolledToElement = false;
 			}
-		],
-		[
-			{
-				label: 'EDUCATION',
-				star: true,
-				legend: true
-			},
-			{
-				label: 'EDUCATION',
-				caption:
-					'Personal manager to assist you with all things trading, and keep you informed about the benefits',
-				star: false,
-				legend: true
-			}
-		],
-		[
-			{
-				label: 'EXPERIENCE',
-				star: true,
-				legend: true
-			},
-			{
-				label: 'EXPERIENCE',
-				caption: 'EXPERIENCE',
-				star: false,
-				legend: true
-			}
-		],
-		[
-			{
-				label: 'GIFTS',
-				star: true,
-				legend: true
-			},
-			{
-				label: 'GIFTS',
-				caption: 'GIFTS',
-				star: false,
-				legend: true
-			}
-		]
-	];
+		};
+
+		window.addEventListener('scroll', handleScroll);
+
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	});
 </script>
 
-<SectionNoBgr>
-	<div class="benefits-wrap">
-		<div class="icon-wrap">
-			<IconEliteClub />
+<div class="benefits-bgr has-bgr" data-bgimage={benefitsBgr}>
+	<SectionNoBgr id="benefits">
+		<div class="benefits-wrap">
+			<div class="icon-wrap">
+				<IconEliteClub />
+			</div>
+
+			<InView><h3>{@html content.heading}</h3></InView>
+
+			<div class="benefits-menu benefits-menu-desktop">
+				<BenefitsMenu bind:active />
+			</div>
+
+			<div
+				class="benefits-menu benefits-menu-mobile {!isScrolledToElement
+					? 'is-visible'
+					: 'is-hidden'}"
+			>
+				<BenefitsMenuMobile bind:active />
+			</div>
+
+			<InView>
+				{#each items.filter((_, index) => index === active) as item, index (active)}
+					<div class="table-wrap" in:fly={{ y: 50, duration: 700 }}>
+						<div class="table-desktop table">
+							<BenefitsTable checkmarks={checkmarks[index]} items={item} thead={content.thead} />
+						</div>
+						<div class="table-mobile table">
+							<BenefitsTableMobile
+								checkmarks={checkmarks[index]}
+								items={item}
+								thead={content.thead}
+							/>
+						</div>
+					</div>
+				{/each}
+			</InView>
+
+			<div class="button-wrap" id="benefits-button">
+				<a href="#registration" alt="Join the club" class="button button-small"
+					><span>Join the club</span></a
+				>
+			</div>
 		</div>
-		<InView>
-			<h3>
-				Explore the benefits<br /> of being Elite
-			</h3>
-		</InView>
-
-		<BenefitsMenu bind:active />
-
-		<InView>
-			{#each items.filter((_, index) => index === active) as item (active)}
-				<div class="table-wrap" in:fly={{ y: 50, duration: 700 }}>
-					<BenefitsTable items={item} />
-				</div>
-			{/each}
-		</InView>
-
-		<div class="button-wrap">
-			<a href="#registration" alt="Join the club" class="button button-small">Join the club</a>
-		</div>
-	</div>
-</SectionNoBgr>
+	</SectionNoBgr>
+</div>
 
 <style>
+	.benefits-bgr {
+		background-repeat: no-repeat;
+		background-position: 50% top;
+	}
+
+	@media screen and (max-width: 600px) {
+		.benefits-bgr {
+			background: none !important;
+		}
+	}
+	.benefits-menu,
+	.table {
+		display: none;
+	}
+	@media screen and (max-width: 600px) {
+		.table-mobile {
+			display: block;
+		}
+		.benefits-menu-mobile {
+			display: block;
+			position: sticky;
+			width: 100%;
+			top: calc(100vh - 24px - 63px);
+			z-index: 2;
+			left: -24px;
+			transition:
+				opacity 0.2s ease-out,
+				transform 1s ease;
+		}
+		.benefits-menu-mobile.is-visible {
+			opacity: 1;
+			transform: translateY(0);
+		}
+		.benefits-menu-mobile.is-hidden {
+			opacity: 0;
+			transform: translateY(50px);
+		}
+	}
+
+	@media screen and (max-width: 400px) {
+		.benefits-menu-mobile {
+			left: -16px;
+		}
+	}
+	@media screen and (min-width: 601px) {
+		.benefits-menu-desktop {
+			display: block;
+		}
+		.table-desktop {
+			display: block;
+		}
+	}
+	h3 {
+		color: white;
+	}
+
 	.benefits-wrap {
 		text-align: center;
+		color: var(--graphite-500);
+		position: relative;
 	}
 	h3 {
 		font-size: 58px;
@@ -113,5 +165,11 @@
 	}
 	.button-wrap {
 		margin-top: 48px;
+	}
+
+	@media screen and (max-width: 600px) {
+		.button-wrap {
+			margin-top: 32px;
+		}
 	}
 </style>

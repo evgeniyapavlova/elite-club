@@ -29,6 +29,7 @@
 		text-align: left;
 		color: var(--graphite-100);
 		font-size: 20px;
+		line-height: 28px;
 	}
 
 	.item-label {
@@ -44,6 +45,8 @@
 		margin-top: 20px;
 		color: var(--graphite-500);
 		padding-bottom: 12px;
+		font-size: 16px;
+		line-height: 26px;
 	}
 
 	:global(.answer p) {

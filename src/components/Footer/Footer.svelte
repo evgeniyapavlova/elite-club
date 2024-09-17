@@ -59,4 +59,35 @@
 	:global(.footer-links a) {
 		margin-right: 32px;
 	}
+
+	@media screen and (max-width: 1240px) {
+		footer {
+			padding-left: 56px;
+			padding-right: 56px;
+			padding-top: 0;
+		}
+	}
+
+	@media screen and (max-width: 600px) {
+		footer {
+			padding-left: 24px;
+			padding-right: 24px;
+		}
+		.footer-links {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+		}
+		:global(.footer-links a) {
+			margin-right: 0;
+			margin-bottom: 8px;
+		}
+	}
+
+	@media screen and (max-width: 400px) {
+		footer {
+			padding-left: 16px;
+			padding-right: 16px;
+		}
+	}
 </style>

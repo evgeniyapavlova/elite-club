@@ -1,48 +1,29 @@
 <script>
-	import IconCheck from './svg/IconCheck.svelte';
-	import IconClose from './svg/IconClose.svelte';
-	export let items;
+	import CheckIcon from './CheckIcon.svelte';
+	export let items, checkmarks, thead;
 </script>
 
 <table>
 	<thead>
 		<td></td>
-		<td>
-			<h5>Star</h5>
-			By default
-		</td>
-		<td>
-			<h5>Legend</h5>
-			Profiled users
-		</td>
+		{#each thead as thead_item}
+			<td>
+				<h5>{thead_item.label}</h5>
+				{thead_item.caption}
+			</td>
+		{/each}
 	</thead>
 	<tbody>
-		{#each items as item}
+		{#each items as item, index}
 			<tr>
 				<td>
 					<div class="text-wrap">
-						<h5>
-							{item.label}
-						</h5>
-						{#if item.caption}
-							{item.caption}
-						{/if}
+						<h5>{item.label}</h5>
+						{#if item.caption}{item.caption}{/if}
 					</div>
 				</td>
-				<td>
-					{#if item.star}
-						<IconCheck />
-					{:else}
-						<IconClose />
-					{/if}
-				</td>
-				<td>
-					{#if item.legend}
-						<IconCheck />
-					{:else}
-						<IconClose />
-					{/if}
-				</td>
+				<td><CheckIcon isChecked={checkmarks[index].star} /></td>
+				<td><CheckIcon isChecked={checkmarks[index].legend} /></td>
 			</tr>
 		{/each}
 	</tbody>
@@ -62,6 +43,7 @@
 		font-size: 20px;
 		line-height: 1.4;
 		color: var(--graphite-100);
+		margin-bottom: 4px;
 	}
 
 	tr td {
@@ -78,8 +60,5 @@
 
 	.text-wrap {
 		max-width: 380px;
-	}
-	.caption {
-		margin-top: 4px;
 	}
 </style>

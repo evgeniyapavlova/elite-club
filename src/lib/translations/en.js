@@ -1,4 +1,49 @@
 export default {
+	benefits: {
+		heading: 'Explore the benefits<br /> of being Elite',
+		thead: [
+			{ label: 'Star', caption: 'By default' },
+			{ label: 'Legend', caption: 'Profiled users' }
+		],
+		items_services: [
+			{ label: 'IQ Options Elite Status' },
+			{
+				label: 'Elite Account Manager',
+				caption:
+					'Personal manager to assist you with all things trading, and keep you informed about the benefits'
+			},
+			{
+				label: 'Exclusive Services From the Best Professionals',
+				caption: 'Welth, Tax advisory, Social Media and travel management'
+			}
+		],
+		items_education: [
+			{
+				label: 'EDUCATION'
+			},
+			{
+				label: 'EDUCATION',
+				caption:
+					'Personal manager to assist you with all things trading, and keep you informed about the benefits'
+			}
+		],
+		items_experience: [
+			{
+				label: 'EXPERIENCE',
+				caption: 'EXPERIENCE'
+			}
+		],
+		items_gifts: [
+			{
+				label: 'GIFTS',
+				caption: 'bla bla bla'
+			},
+			{
+				label: 'GIFTS',
+				caption: 'bla bla bla'
+			}
+		]
+	},
 	screens: {
 		items: [
 			{
@@ -16,7 +61,7 @@ export default {
 		]
 	},
 	faq: {
-		heading: '',
+		heading: 'Any questions left?',
 		items: [
 			{
 				q: 'What is IQ Option Elite about?',

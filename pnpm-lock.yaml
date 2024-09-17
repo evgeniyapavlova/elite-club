@@ -8,18 +8,6 @@ dependencies:
   '@splidejs/svelte-splide':
     specifier: ^0.2.9
     version: 0.2.9
-  fullpage.js:
-    specifier: ^4.0.20
-    version: 4.0.20
-  lodash.debounce:
-    specifier: ^4.0.8
-    version: 4.0.8
-  scrollyfills:
-    specifier: ^1.0.2
-    version: 1.0.2
-  svelte-fullpage:
-    specifier: ^1.1.0
-    version: 1.1.0(svelte@4.2.19)
   svelte-inview:
     specifier: ^4.0.2
     version: 4.0.2(svelte@4.2.19)
@@ -1118,10 +1106,6 @@ packages:
     dev: true
     optional: true
 
-  /fullpage.js@4.0.20:
-    resolution: {integrity: sha512-y72V3oV/pFccPYaxnUosEltQP9tXH340x479oQSS9Yab0L0YpIPNE0PFA68l6XEq5Lhw7IRqyCgVwL+WdjtQdA==}
-    dev: false
-
   /gh-pages@6.1.1:
     resolution: {integrity: sha512-upnohfjBwN5hBP9w2dPE7HO5JJTHzSGMV1JrLrHvNuqmjoYHg6TBrCcnEoorjG/e0ejbuvnwyKMdTyM40PEByw==}
     engines: {node: '>=10'}
@@ -1325,10 +1309,6 @@ packages:
     dependencies:
       p-locate: 5.0.0
     dev: true
-
-  /lodash.debounce@4.0.8:
-    resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
-    dev: false
 
   /lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
@@ -1631,10 +1611,6 @@ packages:
       mri: 1.2.0
     dev: true
 
-  /scrollyfills@1.0.2:
-    resolution: {integrity: sha512-DlYR0Nwy1Yx00V4pOlBEE22wks9mhHFKN5b+LzSrQZ/nDODDVw7rgii4Pkg5+jRw+A/tmy5CDZWNU21oiaGmSg==}
-    dev: false
-
   /semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
@@ -1717,14 +1693,6 @@ packages:
       postcss-scss: 4.0.9(postcss@8.4.45)
       svelte: 4.2.19
     dev: true
-
-  /svelte-fullpage@1.1.0(svelte@4.2.19):
-    resolution: {integrity: sha512-b7JaQydeq8BSThNFRcvoo7HnwJdGXjAYysX0Hufr5r/pBU2FZlyTqXgw9QhQ046rz3PFzyyd6nAu1e4tkEmk5A==}
-    peerDependencies:
-      svelte: ^3.0.0 || ^4.0.0
-    dependencies:
-      svelte: 4.2.19
-    dev: false
 
   /svelte-hmr@0.16.0(svelte@4.2.19):
     resolution: {integrity: sha512-Gyc7cOS3VJzLlfj7wKS0ZnzDVdv3Pn2IuVeJPk9m2skfhcu5bq3wtIZyQGggr7/Iim5rH5cncyQft/kRLupcnA==}

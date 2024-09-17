@@ -25,6 +25,6 @@
 
 <style>
 	.faq-content {
-		margin-top: 56px;
+		margin-top: 36px;
 	}
 </style>
