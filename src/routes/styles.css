@@ -1,6 +1,7 @@
 :root {
 	--orange: #F7A743;
 	--accent-500: #FBB35A;
+	--accent-700: #D97C07;
 	--graphite-100: #F5F5F4;
 	--graphite-300: #D7D3D0;
 	--graphite-400: #A9A29D;
@@ -100,5 +101,5 @@ h2 {
 	background: var(--text-gradient);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-
+	letter-spacing: -0.7px;
 }

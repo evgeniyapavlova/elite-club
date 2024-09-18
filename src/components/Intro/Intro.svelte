@@ -2,34 +2,44 @@
 	import InView from '../common/InView.svelte';
 	import Header from '../Header/Header.svelte';
 	import introBg from './img/intro-bg_1.jpg';
-	export let lang, content;
+	export let lang, content, isTranslationLoaded;
 </script>
 
 <section class="has-bgr" data-bgimage={introBg}>
 	<Header {lang} />
 	<div class="content">
-		<div class="text-content">
-			<InView><h1>{@html content.h1}</h1></InView>
-			<InView><div class="h1_caption">{@html content.h1_caption}</div></InView>
-			<div class="button-wrap">
-				<a href="#registration" alt="Join the club" class="button button-small"
-					><span>{content.button}</span></a
-				>
-				<div class="btn-caption">{content.button_caption}</div>
+		{#if isTranslationLoaded}
+			<div class="text-content">
+				<InView><h1>{@html content?.h1}</h1></InView>
+
+				<InView><div class="h1_caption">{@html content?.h1_caption}</div></InView>
+				<div class="button-wrap">
+					<a href="#registration" alt="Join the club" class="button button-small"
+						><span>{content?.button}</span></a
+					>
+					<div class="btn-caption">{content?.button_caption}</div>
+				</div>
 			</div>
-		</div>
+		{/if}
 	</div>
-	<div class="scroll-block">
-		<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path
-				d="M10.5 3.33334V16.6667M10.5 16.6667L15.5 11.6667M10.5 16.6667L5.5 11.6667"
-				stroke="#8C877D"
-				stroke-linecap="round"
-				stroke-linejoin="round"
-			/>
-		</svg>
-		{content.scroll_text}
-	</div>
+	{#if isTranslationLoaded}
+		<div class="scroll-block">
+			<svg
+				width="21"
+				height="20"
+				viewBox="0 0 21 20"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M10.5 3.33334V16.6667M10.5 16.6667L15.5 11.6667M10.5 16.6667L5.5 11.6667"
+					stroke="#8C877D"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				/>
+			</svg>
+			{content?.scroll_text}
+		</div>{/if}
 </section>
 
 <style>
@@ -72,6 +82,7 @@
 		background-size: cover;
 		display: flex;
 		flex-direction: column;
+		background-color: rgba(251, 179, 90, 0.1);
 	}
 	.content {
 		max-width: 1366px;

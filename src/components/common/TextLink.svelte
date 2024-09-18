@@ -14,25 +14,24 @@
 	}
 
 	a::after {
-		left: 50%;
+		left: 0;
 	}
 
-	a::before,
 	a::after {
 		content: '';
 		position: absolute;
 		bottom: 0;
-		width: 50%;
-		transition: width ease-out 0.2s;
+		width: 100%;
+		transition: background-color ease-out 0.2s;
 		height: 1px;
-		background-color: #533b1d;
-	}
-	a::before {
-		right: 50%;
+		background-color: rgba(251, 179, 90, 0.3);
 	}
 
-	a:hover::after,
-	a:hover::before {
-		width: 0;
+	a:hover::after {
+		background-color: var(--accent-500);
+	}
+
+	a:active::after {
+		background-color: var(--accent-700);
 	}
 </style>

@@ -19,7 +19,8 @@
 				<td>
 					<div class="text-wrap">
 						<h5>{item.label}</h5>
-						{#if item.caption}{item.caption}{/if}
+						{#if item.caption}
+							<div class="caption">{item.caption}</div>{/if}
 					</div>
 				</td>
 				<td><CheckIcon isChecked={checkmarks[index].star} /></td>
@@ -30,6 +31,9 @@
 </table>
 
 <style>
+	.caption {
+		margin-top: 4px;
+	}
 	table {
 		color: var(--graphite-500);
 		font-size: 16px;
@@ -43,7 +47,6 @@
 		font-size: 20px;
 		line-height: 1.4;
 		color: var(--graphite-100);
-		margin-bottom: 4px;
 	}
 
 	tr td {
@@ -51,7 +54,7 @@
 	}
 
 	td {
-		padding: 24px 0;
+		padding: 22px 0 20px;
 	}
 
 	table thead td:not(:first-child) {

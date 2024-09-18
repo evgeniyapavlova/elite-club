@@ -13,12 +13,14 @@
 	let isTranslationLoaded = false;
 	let translation = {};
 	let isMobile = false;
+	let isTranslationLoading = true;
 
 	async function loadTranslations() {
 		if (!isTranslationLoaded) {
 			const module = await import(`../lib/translations/${lang}.js`);
 			translation = module.default;
 			isTranslationLoaded = true;
+			isTranslationLoading = false;
 		}
 	}
 
@@ -30,9 +32,7 @@
 	});
 </script>
 
-{#if translation?.intro}
-	<Intro content={translation.intro} {lang} />
-{/if}
+<!-- <Intro bind:isTranslationLoaded content={translation?.intro} {lang} />
 
 <div class="intro2-bgr has-bgr" data-bgimage={introBgr}>
 	{#if translation?.intro2}
@@ -49,7 +49,7 @@
 
 {#if translation?.registration}
 	<Registration content={translation.registration} {lang} />
-{/if}
+{/if} -->
 
 {#if translation?.faq}
 	<Faq content={translation.faq} />

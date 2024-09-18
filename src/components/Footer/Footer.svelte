@@ -43,7 +43,7 @@
 		padding-bottom: 40px;
 		line-height: 1.6;
 		font-size: 14px;
-		max-width: 1200px;
+		max-width: 1360px;
 		margin: 0 auto;
 		padding: 96px 80px 40px;
 	}
