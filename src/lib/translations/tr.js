@@ -38,5 +38,50 @@ export default {
 				captions: ['Lüks markalı kol saati', 'Apple markalı ürünler']
 			}
 		]
+	},
+	faq: {
+		heading: 'Başka sorunuz var mı?',
+		items: [
+			{
+				q: 'IQ Option Elite nedir?',
+				a: "<p>IQ Option Elite, en değerli üyelerimizi olağanüstü avantajlar ve kişiselleştirilmiş deneyimlerle ödüllendirmek için tasarlanmış özel bir sadakat programıdır.</p> <p>En değerli müşterilerimizden biri olarak, olağanüstü katılımınız ve sadakatiniz size IQ Option Elite'de bir yer kazandırdı. Katkılarınızı ve bağlılığınızı tanıyor ve takdir ediyoruz ve sizi benzersiz durumunuzu yansıtan özel avantajlar ve kişiselleştirilmiş hizmetlerle ödüllendirmekten heyecan duyuyoruz.</p> <p>Bir üye olarak, özel hediyelerin, futbol maçları, konserler, F1, NBA maçları gibi seçkin etkinliklere erişimin, kişiselleştirilmiş gezilerin, size ve ailenize özel ürünlerin ve en son teknolojinin keyfini çıkaracaksınız. Kulüp, IQ Option ile her etkileşimi daha ödüllendirici ve unutulmaz hale getirerek bizimle olan deneyiminizi yeni bir seviyeye yükseltmeyi amaçlamaktadır.</p>"
+			},
+			{
+				q: 'Kulübe nasıl katılabilirim?',
+				a: "<p>IQ Option Elite'e katılmak oldukça basittir. Sadece şu adımları izleyin:</p> <ul><li>Programın yeni Elit statüsü ile ilgili tüm bilgileri okuyun.</li> <li>IQ Option Hesap Kimliğinizi, e-postanızı ve telefon numaranızı girin.</li> <li>Alternatif olarak, size bir e-posta göndermemizi veya sizi aramamızı talep ederek farklı bir şekilde kayıt olmayı seçebilirsiniz.</li></ul>"
+			},
+			{
+				q: 'Avantajlarım neler?',
+				a: '<p>IQ Option Elite üyesi olarak şunları elde edersiniz:</p> <ul><li>Tercihlerinize göre uyarlanmış özel hediyeler.</li> <li>Spor karşılaşmaları, konserler ve daha fazlası dahil olmak üzere premium etkinliklere erişim.</li> <li>Kişiselleştirilmiş seyahat deneyimleri.</li> <li>Siz ve aileniz için özel ürünler.</li> <li>En son teknoloji ve yeniliklere erişim.</li> <li>Kulüp içindeki her kademe ek avantajlar ve ayrıcalıklar sunar.</li></ul>'
+			},
+			{
+				q: 'Abonelik ücreti ödemek zorunda mıyım?',
+				a: "Hayır, IQ Option Elite'e katılmak için herhangi bir abonelik ücreti yoktur. Üyelik, IQ Option'daki etkinliğinize ve katılımınıza bağlı olarak davet veya yeterlilik ile gerçekleşir."
+			},
+			{
+				q: 'Profil oluşturma aşaması nedir? Buna neden ihtiyacınız var?',
+				a: '<p>Profil oluşturma aşaması, hizmetlerimizi ve avantajlarımızı benzersiz tercihlerinize ve ihtiyaçlarınıza göre uyarlamak için hakkınızda belirli bilgilerin toplanmasını içerir. Bu aşama birkaç nedenden dolayı çok önemlidir:</p> <ul><li><b>Kişiselleştirilmiş Deneyim</b>: İlgi alanlarınızı, hobilerinizi ve tercihlerinizi anlayarak, sizin için gerçekten anlamlı olan hediyeler ve deneyimler sunabiliriz.</li> <li><b>Özelleştirilmiş Hizmetler</b>: Detaylı profilleme, özel seyahat planları ve özel etkinlik davetiyeleri gibi kişiselleştirilmiş hizmetler sunmamızı sağlayarak genel deneyiminizi geliştirir.</li> <li><b>Geliştirilmiş Avantajlar</b>: Toplanan bilgiler, aldığınız fayda ve ödüllerin kişisel zevkleriniz ve yaşam tarzınızla uyumlu olmasını sağlamamıza yardımcı olarak memnuniyetinizi en üst düzeye çıkarır.</li></ul> <p>Profil oluşturma aşaması, sizin için en önemli olan şeylere odaklanarak IQ Option Elite programına katılımınızı olabildiğince ödüllendirici ve keyifli hale getirmek için tasarlanmıştır.</p> <p>Profil oluşturma aşamasında verdiğiniz tüm bilgilerin kesinlikle gizli tutulacağından ve yalnızca üyelik deneyiminizi geliştirmek için kullanılacağından emin olabilirsiniz.</p>'
+			},
+			{
+				q: 'Bir sonraki aşamaya nasıl geçebilirim?',
+				a: 'Şimdiye kadar, biri profilli olmayan kullanıcılar ve diğeri profilli kullanıcılar için olmak üzere, en üst kademeye ilerlemek ve en iyi deneyimi elde etmek için gerekli tüm bilgileri yükleyenler için yalnızca iki kademe vardır.'
+			},
+			{
+				q: 'Mevcut kadememden bir alt kademeye indirilebilir miyim?',
+				a: 'Evet, etkinlik ve katılım düzeyleriniz önemli ölçüde düşerse mevcut kademenizden düşürülmeniz mümkündür. Tüm üyeleri, mevcut kademelerinin avantajlarından yararlanmaya devam etmek için aktif kalmaya ve katılım göstermeye teşvik ediyoruz.'
+			},
+			{
+				q: 'Kademe durumum hakkında nasıl bilgilendirileceğim?',
+				a: 'Mevcut seviyenizi platformdaki profilinizden kontrol edebilirsiniz.'
+			},
+			{
+				q: 'Üye olarak hangi özel etkinliklere katılabilirim?',
+				a: "IQ Option Elite'in bir üyesi olarak, büyük spor karşılaşmaları, konserler, Formula 1 yarışları, NBA maçları ve diğer yüksek profilli etkinlikler dahil olmak üzere çeşitli özel etkinliklere katılma fırsatına sahip olacaksınız. Bu etkinlikler size unutulmaz deneyimler yaşatmak için seçilmiştir."
+			},
+			{
+				q: 'Ailem ve arkadaşlarım üyeliğimden faydalanabilir mi?',
+				a: 'Evet, aileniz ve arkadaşlarınız üyeliğinizden faydalanabilir. Kişiselleştirilmiş hediyeler, ürünler almak için eşinizi ve çocuklarınızı dahil edebilir ve onları etkinlikler için artılarınız olarak ekleyebilirsiniz. Siz ve sevdikleriniz için unutulmaz deneyimler sunmayı hedefliyoruz.'
+			}
+		]
 	}
 };

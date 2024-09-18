@@ -146,6 +146,7 @@
 	}
 	h3 {
 		color: white;
+		letter-spacing: -0.7px;
 	}
 
 	.benefits-wrap {
