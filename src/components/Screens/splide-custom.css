@@ -33,6 +33,7 @@
     transition: all 0.2s ease-out;
     counter-reset: pagination-num;
     padding-bottom: 31px;
+
 }
 
 .splide__pagination__page:before {

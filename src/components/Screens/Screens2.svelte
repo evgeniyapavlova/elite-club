@@ -1,27 +1,47 @@
 <script>
+	import { Mousewheel, Pagination } from 'swiper';
+
 	import { Swiper, SwiperSlide } from 'swiper/svelte';
-	import 'swiper/swiper.scss';
+	import 'swiper/css/bundle';
 
 	import Screen from './Screen.svelte';
 	import ShowMoreButton from './ShowMoreButton.svelte';
+	import './swiper-custom.css';
 	import images from './images';
 	export let content;
 
 	const items = content.items;
 </script>
 
+<!--
+			on:slideChange={() => console.log('slide change')}
+			on:swiper={(e) => console.log(e.detail[0])}
+			-->
 <section id="screens-wrap">
 	<div class="screens-wrap">
 		<Swiper
-			spaceBetween={50}
-			slidesPerView={3}
-			on:slideChange={() => console.log('slide change')}
-			on:swiper={(e) => console.log(e.detail[0])}
+			modules={[Mousewheel, Pagination]}
+			direction="horizontal"
+			spaceBetween={30}
+			slidesPerView={1}
+			mousewheel={{
+				releaseOnEdges: true,
+				thresholdTime: 600,
+				forceToAxis: true,
+				thresholdDelta: 10
+			}}
+			pagination={{
+				clickable: true,
+				renderBullet: function (index, className) {
+					return `<span class="${className}">${index + 1} </span>`;
+				}
+			}}
 		>
 			{#each items as { captions, heading }, index}
 				<SwiperSlide>
 					<Screen {index} images={images[index]} {captions} {heading} />
-				</SwiperSlide>{/each}
+				</SwiperSlide>
+			{/each}
 		</Swiper>
 	</div>
 
