@@ -1,32 +1,21 @@
 <script>
-	import { base } from '$app/paths';
 	import TextLink from '../common/TextLink.svelte';
+	import { termsLinks } from '../../lib/utils/constants';
+
+	export let content;
 	const year = new Date().getFullYear();
 </script>
 
 <footer>
 	<div class="footer-links">
-		<TextLink href={base} alt="Terms & Conditions">Terms & Conditions</TextLink>
-		<TextLink href={base} alt="Privacy policy">Privacy policy</TextLink>
-		<TextLink href={base} alt="Cookies policy">Cookies policy</TextLink>
+		<TextLink href={termsLinks.terms} alt="Terms & Conditions">{content.terms}</TextLink>
+		<TextLink href={termsLinks.privacy} alt="Privacy policy">{content.privacy}</TextLink>
+		<TextLink href={termsLinks.cookies} alt="Cookies policy">{content.cookies}</TextLink>
 	</div>
 
 	<div class="footer-info">
-		All of the information on this website is protected by copyright and is legally owned by IQ
-		Option as its intellectual property (hereinafter - Intellectual Property). You may not copy,
-		link, publish, upload to external resources, transmit, distribute or reproduce by any means or
-		in any form any portion of this website, including any text, images, audio and video materials
-		or any other Intellectual Property without prior written consent of Quadcode. <br /> <br />
-		Certain names, logos and signs featured on this website are registered trademarks. IQ Option logo
-		is a registered trademark in the European Union, Russian Federation, Hong Kong and many other countries.
-		The fact that IQ Option has not included any product, feature, service name or logo to the list of
-		its Intellectual Property does not waive any intellectual property rights that Quadcode or its affiliates,
-		partners and (or) licensees have established in any such product, feature, service name or logo,
-		all of which intellectual property rights are expressly reserved. <br /> <br />
-		Quadcode trademarks, service marks, trade names, corporate identity are important company's corporate
-		assets and Quadcode requires that they be used properly. In order to preserve its reputation and
-		protect its trademarks and other Intellectual Property, Quadcode diligently guards such objects against
-		any violation.
+		{content.text[0]} <br /> <br />
+		{content.text[1]}
 	</div>
 
 	<div class="footer-copyright">

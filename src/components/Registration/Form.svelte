@@ -16,7 +16,8 @@
 		selectedOption = option.value;
 		isOpen = false;
 	}
-	function toggleDropdown() {
+	function toggleDropdown(e) {
+		e.preventDefault();
 		isOpen = !isOpen;
 	}
 </script>
@@ -42,9 +43,9 @@
 			</div>{/if}
 	</div>
 	<div class="field-wrap">
-		<label for="email"
-			>{selectOptions.find((option) => option.value === selectedOption).label}</label
-		>
+		<label for="email">
+			{selectOptions.find((option) => option.value === selectedOption).label}
+		</label>
 		<input
 			type="email"
 			name="email"

@@ -1,9 +1,9 @@
 <script>
-	import { base } from '$app/paths';
 	import EliteTag from '../common/EliteTag.svelte';
 	import TextLink from '../common/TextLink.svelte';
 	import InView from '../common/InView.svelte';
 	import Form from './Form.svelte';
+	import { termsLinks } from '../../lib/utils/constants';
 
 	export let content, lang;
 	const { terms } = content;
@@ -36,9 +36,9 @@
 			/>
 			<p class="form-terms-text">
 				{terms[0]}
-				<TextLink href={base}>{terms[1]}</TextLink>
+				<TextLink href={termsLinks.terms}>{terms[1]}</TextLink>
 				{terms[2]}
-				<TextLink href={base}>{terms[3]}</TextLink>
+				<TextLink href={termsLinks.privacy}>{terms[3]}</TextLink>
 			</p>
 		</div>
 	</div>

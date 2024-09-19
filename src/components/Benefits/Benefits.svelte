@@ -1,9 +1,9 @@
 <script>
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
+	import SectionNoBgr from '../common/SectionNoBgr.svelte';
 	import InView from '../common/InView.svelte';
 	import IconEliteClub from './svg/IconEliteClub.svelte';
-	import SectionNoBgr from '../common/SectionNoBgr.svelte';
 	import BenefitsMenu from './BenefitsMenu.svelte';
 	import BenefitsTable from './BenefitsTable.svelte';
 	import BenefitsTableMobile from './BenefitsTableMobile.svelte';
@@ -17,7 +17,13 @@
 
 	const { items_services, items_education, items_experience, items_gifts } = content;
 
-	const items = [items_services, items_education, items_experience, items_gifts];
+	const items = [
+		{ id: 0, list: items_services },
+
+		{ id: 1, list: items_education },
+		{ id: 2, list: items_experience },
+		{ id: 3, list: items_gifts }
+	];
 
 	const targetId = 'benefits-button';
 	let isScrolledToElement = false;
@@ -66,17 +72,14 @@
 			</div>
 
 			<InView>
-				{#each items.filter((_, index) => index === active) as item, index (active)}
+				{#each items.filter((_, index) => index === active) as { id, list }, index (active)}
 					<div class="table-wrap" in:fly={{ y: 50, duration: 700 }}>
 						<div class="table-desktop table">
-							<BenefitsTable checkmarks={checkmarks[index]} items={item} thead={content.thead} />
+							<BenefitsTable checkmarks={checkmarks[id]} items={list} thead={content.thead} />
 						</div>
+
 						<div class="table-mobile table">
-							<BenefitsTableMobile
-								checkmarks={checkmarks[index]}
-								items={item}
-								thead={content.thead}
-							/>
+							<BenefitsTableMobile checkmarks={checkmarks[id]} items={list} thead={content.thead} />
 						</div>
 					</div>
 				{/each}
@@ -92,21 +95,24 @@
 </div>
 
 <style>
+	:global(.table-wrap ul) {
+		padding-inline-start: 21px;
+		list-style-type: square;
+	}
 	.benefits-bgr {
 		background-repeat: no-repeat;
 		background-position: 50% top;
 	}
 
-	@media screen and (max-width: 600px) {
-		.benefits-bgr {
-			background: none !important;
-		}
-	}
 	.benefits-menu,
 	.table {
 		display: none;
 	}
 	@media screen and (max-width: 600px) {
+		.benefits-bgr {
+			background: none !important;
+		}
+
 		.table-mobile {
 			display: block;
 		}
@@ -171,6 +177,15 @@
 	@media screen and (max-width: 600px) {
 		.button-wrap {
 			margin-top: 32px;
+		}
+		h3 {
+			font-size: 40px;
+			line-height: 48px;
+			text-align: left;
+			margin-bottom: -38px;
+		}
+		.icon-wrap {
+			text-align: left;
 		}
 	}
 </style>

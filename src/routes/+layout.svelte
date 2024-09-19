@@ -1,8 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
 
-	import Footer from '../components/Footer/Footer.svelte';
-
 	import './styles.css';
 
 	let isStyleLoaded = false;
@@ -66,7 +64,6 @@
 
 <div class="app">
 	<slot />
-	<Footer />
 </div>
 
 <style>

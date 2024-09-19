@@ -83,6 +83,7 @@
 		display: flex;
 		flex-direction: column;
 		background-color: rgba(251, 179, 90, 0.1);
+		background-attachment: fixed;
 	}
 	.content {
 		max-width: 1366px;

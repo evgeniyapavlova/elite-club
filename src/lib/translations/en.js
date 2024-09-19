@@ -1,4 +1,13 @@
 export default {
+	footer: {
+		terms: 'Terms & Conditions',
+		privacy: 'Privacy policy',
+		cookies: 'Cookies policy',
+		text: [
+			'The financial products offered by the company carry a high level of risk and can result in the loss of all your funds. You should never invest money that you cannot afford to lose.',
+			'This content is owned by SKY LADDER LLC and is only intended to users that are not residents of EEA.'
+		]
+	},
 	registration: {
 		title: 'Exclusive.<br />Rewarding.<br /> Personalized.',
 		welcome: 'Welcome to the club, honey',
@@ -24,6 +33,7 @@ export default {
 			{ label: 'Star', caption: 'By default' },
 			{ label: 'Legend', caption: 'Profiled users' }
 		],
+		menuItems: ['Services', 'Education', 'Experience', 'Gifts'],
 		items_services: [
 			{ label: 'IQ Options Elite Status' },
 			{
@@ -38,28 +48,84 @@ export default {
 		],
 		items_education: [
 			{
-				label: 'EDUCATION'
+				label: 'Professional Trading courses (Online)',
+				caption: ['Options Trading', 'Forex Trading', 'Stocks Trading']
 			},
 			{
-				label: 'EDUCATION',
-				caption:
-					'Personal manager to assist you with all things trading, and keep you informed about the benefits'
+				label: 'Webinars (Online)',
+				caption: 'Held by trading experts'
+			},
+			{
+				label: 'Trading Sessions (Online)',
+				caption: 'Private trading sessions with our experts'
+			},
+			{
+				label: 'Masterclasses on Trading (Online)',
+				caption: 'Private and exclusive education events for small group of traders'
 			}
 		],
 		items_experience: [
 			{
-				label: 'EXPERIENCE',
-				caption: 'EXPERIENCE'
+				label: 'IQ OPTION Cyprus Headquarters Visit',
+				caption: [
+					'Flights and Hotel included',
+					'Office tour',
+					'Meet and greet with top management',
+					'Gala dinner ',
+					'Sightseeing program'
+				]
+			},
+			{
+				label: 'Experiences',
+				caption: [
+					'Formula 1 Grand Prix VIP Experiene',
+					'Sport TOP events (NBA, Football, Tennis, Motorsport, Cricket, etc...)',
+					'Music concertts and festivals',
+					'Theme parks (Disney world, Universal Studios, Ferrari world...)',
+					'Ski Resorts',
+					'Michellin stars restaurants',
+					'Helicopter ride (Bangkok, Dubai, Singapore, New York....)',
+					'Sport car driving '
+				]
+			},
+			{
+				label: 'Private Events',
+				caption: 'Private networking events and parties for top traders'
 			}
 		],
 		items_gifts: [
 			{
-				label: 'GIFTS',
-				caption: 'bla bla bla'
+				label: 'Branded Clothing',
+				caption: 'T-shirt, hoodie, cap, hat, polo'
+			},
+
+			{
+				label: 'Branded Accesories',
+				caption: 'Towel, flip flops, sunglasses, bikini'
+			},
+
+			{
+				label: 'IQ Option Elite Member Plaque',
+				caption: 'Fully personalized plaque to recognize your level of membership'
 			},
 			{
-				label: 'GIFTS',
-				caption: 'bla bla bla'
+				label: 'Pro Trading Setup',
+				caption: [
+					'Last generation laptop',
+					'High resolution monitor',
+					'Accessories (mouse, keyboard, cam)',
+					'Pro gaming chair '
+				]
+			},
+
+			{
+				label: 'Branded Tech',
+				caption: 'Video console, headphones, cold storage crypto wallet, speaker'
+			},
+
+			{
+				label: 'Branded Jewelery',
+				caption: 'Ring, necklace'
 			}
 		]
 	},

@@ -1,12 +1,10 @@
 <script>
-	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 	import '@splidejs/svelte-splide/css';
 
 	import ImageWithCaption from './ImageWithCaption.svelte';
 
 	import Heading from './Heading.svelte';
 	export let captions, images, heading, index;
-	let splide2;
 </script>
 
 <section class="screen-slide" id="screen-slide-{index}">

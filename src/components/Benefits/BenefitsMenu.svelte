@@ -35,7 +35,7 @@
 		justify-content: center;
 	}
 	.benefits-menu {
-		margin: 64px auto 29px;
+		margin: 64px auto 34px;
 		list-style-type: none;
 		display: inline-flex;
 		gap: 4px;

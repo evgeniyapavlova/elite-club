@@ -19,8 +19,19 @@
 				<td>
 					<div class="text-wrap">
 						<h5>{item.label}</h5>
+
 						{#if item.caption}
-							<div class="caption">{item.caption}</div>{/if}
+							<div class="caption">
+								{#if typeof item.caption === 'string'}
+									{item.caption}
+								{:else}
+									<ul>
+										{#each item.caption as cap}
+											<li>{cap}</li>
+										{/each}
+									</ul>
+								{/if}
+							</div>{/if}
 					</div>
 				</td>
 				<td><CheckIcon isChecked={checkmarks[index].star} /></td>
@@ -39,6 +50,7 @@
 		font-size: 16px;
 		line-height: 1.6;
 		width: 100%;
+		border-collapse: collapse;
 	}
 	table tr td:first-child {
 		text-align: left;

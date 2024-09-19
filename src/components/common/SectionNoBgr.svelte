@@ -16,25 +16,20 @@
 <style>
 	section {
 		width: 100%;
-		padding: 160px 56px;
+		padding: 0 56px;
 		max-width: 950px;
 		margin: 0 auto;
 	}
-	@media screen and (max-width: 1240px) {
-		section {
-			padding-top: 128px;
-			padding-bottom: 128px;
-		}
-	}
+
 	@media screen and (max-width: 600px) {
 		section {
-			padding: 100px 24px;
+			padding: 0 24px;
 		}
 	}
 
 	@media screen and (max-width: 400px) {
 		section {
-			padding: 72px 16px;
+			padding: 0 16px;
 		}
 	}
 </style>

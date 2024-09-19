@@ -6,16 +6,23 @@ const items_services_check = [
 
 const items_education_check = [
 	{ star: true, legend: true },
+	{ star: true, legend: true },
+	{ star: false, legend: true },
 	{ star: false, legend: true }
 ];
 
 const items_experience_check = [
-	{ star: true, legend: true },
+	{ star: false, legend: true },
+	{ star: false, legend: true },
 	{ star: false, legend: true }
 ];
 
 const items_gifts_check = [
 	{ star: true, legend: true },
+	{ star: true, legend: true },
+	{ star: false, legend: true },
+	{ star: false, legend: true },
+	{ star: false, legend: true },
 	{ star: false, legend: true }
 ];
 

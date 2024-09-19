@@ -13,7 +13,7 @@
 	const items = content.items;
 </script>
 
-<section>
+<section id="screens-wrap">
 	<div class="screens-wrap">
 		<Splide
 			bind:this={splide1}
@@ -30,8 +30,8 @@
 				wheel: true,
 				waitForTransition: true,
 				releaseWheel: true,
-				wheelSleep: 1000,
-				direction: 'ltr',
+				// wheelSleep: 1000,
+				// direction: 'ltr',
 				breakpoints: {
 					960: {
 						destroy: true
@@ -61,11 +61,12 @@
 		padding: 48px;
 		position: relative;
 		overflow: hidden;
+		height: 100vh;
 	}
 
 	@media screen and (max-width: 1240px) {
 		section {
-			padding: 32px;
+			padding: 0 32px;
 		}
 		.screens-wrap {
 			border-radius: 40px;
@@ -76,6 +77,7 @@
 	@media screen and (max-width: 960px) {
 		section {
 			padding: 0 24px;
+			height: auto;
 		}
 		.screens-wrap {
 			border-radius: 0;

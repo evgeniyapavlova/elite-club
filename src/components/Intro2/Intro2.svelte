@@ -12,21 +12,18 @@
 <style>
 	section {
 		max-width: 1100px;
-		padding: 256px 84px;
+		padding: 96px 84px;
 		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
+
 	h2 {
-		background: var(--text-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
 		font-size: 88px;
 		line-height: 104px;
 	}
 	@media screen and (max-width: 1240px) {
-		section {
-			padding-top: 224px;
-			padding-bottom: 224px;
-		}
 		h2 {
 			font-size: 72px;
 			line-height: 88px;
@@ -38,18 +35,15 @@
 			line-height: 48px;
 		}
 		section {
-			padding: 208px 80px;
+			padding: 80px;
 			max-width: 600px;
+			min-height: auto;
 		}
 	}
-	@media screen and (max-width: 600px) {
-		section {
-			padding: 184px 56px;
-		}
-	}
+
 	@media screen and (max-width: 400px) {
 		section {
-			padding: 136px 32px;
+			padding: 64px 32px;
 		}
 	}
 </style>

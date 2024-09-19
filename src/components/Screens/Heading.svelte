@@ -28,5 +28,8 @@
 		:global(.screen-heading br) {
 			display: none;
 		}
+		:global(#screen-slide-0 .screen-heading) {
+			margin-top: 0;
+		}
 	}
 </style>
