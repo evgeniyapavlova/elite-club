@@ -1,4 +1,111 @@
 export default {
+	benefits: {
+		heading: 'Utforska förmånerna med att ta del i Elite',
+		thead: [
+			{ label: 'Stjärna', caption: 'Som standard' },
+			{ label: 'Legend', caption: 'Profilerade användare' }
+		],
+		menuItems: ['Tjänster', 'Utbildning', 'Upplevelse', 'Gåvor'],
+		items_services: [
+			{ label: 'IQ Options Elite-status' },
+			{
+				label: 'Elite kontomanager',
+				caption:
+					'Personlig manager som hjälper dig med allt som handlar om handel och håller dig informerad om förmånerna'
+			},
+			{
+				label: 'Exklusiva tjänster from de bästa yrkespersonerna',
+				caption: [
+					'Förmögenhetsförvaltning',
+					'Skatterådgivning',
+					'Social mediehantering',
+					'Resehantering'
+				]
+			}
+		],
+		items_education: [
+			{
+				label: 'Proffesionella handelskurser (online)',
+				caption: ['Optionshandel', 'Valutahandel', 'Aktiehandel']
+			},
+			{
+				label: 'Webbinarier (online)',
+				caption: 'Hålls av handelsexperter'
+			},
+			{
+				label: 'Handelssessioner (online)',
+				caption: 'Privata handelssessioner med våra experter'
+			},
+			{
+				label: 'Masterklasser om handel (online)',
+				caption: 'Privata och exklusiva utbildningsevenemang för mindre grupper av traders'
+			}
+		],
+		items_experience: [
+			{
+				label: 'IQ OPTION Cypern huvudkvarter besök',
+				caption: [
+					'Flyg och hotell inkluderat',
+					'Rundtur på kontoret',
+					'Träffa företagets ledning',
+					'Galamiddag',
+					'Sightseeing-program'
+				]
+			},
+			{
+				label: 'Upplevelser',
+				caption: [
+					'Formula 1 Grand Prix VIP-upplevelse',
+					'Största sportevenemangen (NBA, Fotboll, Tennis, Motorsport, Cricket, m.m.)',
+					'Musikkonserter och festivaler',
+					'Nöjesparker (Disney world, Universal Studios, Ferrari world...)',
+					'Skidresort',
+					'Michellin-restauranger',
+					'Helikoptertur (Bangkok, Dubai, Singapore, New York....)',
+					'Köra sportbilar'
+				]
+			},
+			{
+				label: 'Privata evenemang',
+				caption: 'Privata networkingevenemang och fester för traders som presterar bäst'
+			}
+		],
+		items_gifts: [
+			{
+				label: 'Varumärkta kläder',
+				caption: 'T-shirt, huvudtröja, keps, hatt, polotröja'
+			},
+
+			{
+				label: 'Varumärkta tillbehör',
+				caption: 'Badlakan, flip flops, solglasögon, bikini'
+			},
+
+			{
+				label: 'IQ Option Elite Member-plakett',
+				caption: 'Helt personlig plakett för att hylla din medlemsnivå'
+			},
+			{
+				label: 'Pro-handel installation',
+				caption: [
+					'Senaste generationen laptop',
+					'Monitor med högupplösning',
+					'Tillbehör (mus, tangentbord, kamera)',
+					'Pro-gamingstol'
+				]
+			},
+
+			{
+				label: 'Varumärkt teknik',
+				caption: 'Videokonsoll, hörlurar, kallförvaring kryptoplånbok, högtalare'
+			},
+
+			{
+				label: 'Varumärkta smycken',
+				caption: 'Ring, halsband'
+			}
+		]
+	},
 	registration: {
 		title: 'Exclusivt.<br />Givande.<br />Personaliserat.',
 		welcome: 'Välkommen till klubben',

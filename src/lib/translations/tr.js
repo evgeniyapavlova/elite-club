@@ -1,4 +1,111 @@
 export default {
+	benefits: {
+		heading: 'Elite üye olmanın avantajlarını keşfedin',
+		thead: [
+			{ label: 'Yıldız', caption: 'Varsayılan olarak' },
+			{ label: 'Efsane', caption: 'Profilli kullanıcılar' }
+		],
+		menuItems: ['Hizmetler', 'Eğitim', 'Deneyim', 'Hediyeler'],
+		items_services: [
+			{ label: 'IQ Option Elite Statüsü' },
+			{
+				label: 'Elite Hesap Yöneticisi',
+				caption:
+					'Yatırımla ilgili tüm konularda size yardımcı olacak ve avantajlar hakkında sizi bilgilendirecek kişisel yönetici'
+			},
+			{
+				label: 'En İyi Profesyonellerden Ayrıcalıklı Hizmetler',
+				caption: [
+					'Servet Yönetimi',
+					'Vergi danışmanlığı',
+					'Sosyal Medya Yönetimi',
+					'Seyahat Yönetimi'
+				]
+			}
+		],
+		items_education: [
+			{
+				label: 'Profesyonel Yatırım Kursları (Çevrimiçi)',
+				caption: ['Opsiyon İşlemleri', 'Forex İşlemleri', 'Hisse Senedi İşlemleri']
+			},
+			{
+				label: 'Web Seminerleri (Çevrimiçi)',
+				caption: 'Yatırım uzmanları tarafından düzenlenir'
+			},
+			{
+				label: 'İşlem Seansları (Çevrimiçi)',
+				caption: 'Uzmanlarımızla özel işlem seansları'
+			},
+			{
+				label: 'Yatırımla ilgili ustalık dersleri (Çevrimiçi)',
+				caption: 'Küçük işlemci grupları için özel ve ayrıcalıklı eğitim etkinlikleri'
+			}
+		],
+		items_experience: [
+			{
+				label: 'IQ OPTION Kıbrıs Genel Merkezine Ziyaret',
+				caption: [
+					'Uçak Bileti ve Otel dahil',
+					'Ofis turu',
+					'Üst yönetimle tanışma ve sohbet',
+					'Gala yemeği',
+					'Gezi programı'
+				]
+			},
+			{
+				label: 'Deneyimler',
+				caption: [
+					'Formula 1 Grand Prix VIP Deneyimi',
+					'POPÜLER spor etkinlikleri (NBA, Futbol, Tenis, Motor sporları, Kriket vb...)',
+					'Müzik konserleri ve festivalleri',
+					'Tema parkları (Disney World, Universal Studios, Ferrari World...)',
+					'Kayak Merkezleri',
+					'Michelin yıldızlı restoranlar',
+					'Helikopter gezisi (Bangkok, Dubai, Singapur, New York....)',
+					'Spor araba sürüşü'
+				]
+			},
+			{
+				label: 'Özel Etkinlikler',
+				caption: 'En iyi işlemciler için özel sosyal çevre oluşturma etkinlikleri ve partileri'
+			}
+		],
+		items_gifts: [
+			{
+				label: 'Markalı Kıyafetler',
+				caption: 'Tişört, kapüşonlu tişört, kasket, şapka, polo tişört'
+			},
+
+			{
+				label: 'Markalı Aksesuarlar',
+				caption: 'Havlu, parmak arası terlik, güneş gözlüğü, bikini'
+			},
+
+			{
+				label: 'IQ Option Elite Üye Plaketi',
+				caption: 'Üyelik seviyenizi tasdik eden tamamen kişiye özel plaket'
+			},
+			{
+				label: 'Profesyonel Yatırım Düzeni',
+				caption: [
+					'Son nesil dizüstü bilgisayar',
+					'Yüksek çözünürlüklü monitör',
+					'Aksesuarlar (fare, klavye, kamera)',
+					'Profesyonel oyuncu koltuğu'
+				]
+			},
+
+			{
+				label: 'Markalı Teknoloji Ürünleri',
+				caption: 'Video oyun konsolu, kulaklık, soğuk depolama kripto cüzdanı, hoparlör'
+			},
+
+			{
+				label: 'Markalı Takılar',
+				caption: 'Yüzük, kolye'
+			}
+		]
+	},
 	registration: {
 		title: 'Özel.<br />Tatmin edici.<br />Kişiselleştirilmiş.',
 		welcome: 'Kulübe hoş geldiniz',

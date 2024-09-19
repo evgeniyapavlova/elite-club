@@ -1,4 +1,106 @@
 export default {
+	benefits: {
+		heading: 'Khám phá quyền lợi Elite',
+		thead: [
+			{ label: 'Sao', caption: 'Mặc định' },
+			{ label: 'Huyền thoại', caption: 'Người dùng được lập hồ sơ' }
+		],
+		menuItems: ['Dịch vụ', 'Giáo dục', 'Trải nghiệm', 'Quà tặng'],
+		items_services: [
+			{ label: 'Trạng thái IQ Options Elite' },
+			{
+				label: 'Quản lý tài khoản Elite',
+				caption:
+					'Quản lý cá nhân hỗ trợ bạn mọi thứ liên quan đến giao dịch và thông báo cho bạn về các quyền lợi'
+			},
+			{
+				label: 'Dịch vụ độc quyền từ những chuyên gia giỏi nhất',
+				caption: ['Quản lý tài sản', 'Tư vấn thuế', 'Quản lý mạng xã hội', 'Quản lý du lịch']
+			}
+		],
+		items_education: [
+			{
+				label: 'Khóa học giao dịch chuyên nghiệp (Trực tuyến)',
+				caption: ['Giao dịch quyền chọn', 'Giao dịch forex', 'Giao dịch chứng khoán']
+			},
+			{
+				label: 'Webinar (Online)',
+				caption: 'Được tổ chức bởi các chuyên gia giao dịch'
+			},
+			{
+				label: 'Các phiên giao dịch (Trực tuyến)',
+				caption: 'Phiên giao dịch riêng với các chuyên gia của chúng tôi'
+			},
+			{
+				label: 'Lớp học nâng cao về giao dịch (Trực tuyến)',
+				caption: 'Sự kiện giáo dục riêng và độc quyền dành cho nhóm nhỏ các nhà giao dịch'
+			}
+		],
+		items_experience: [
+			{
+				label: 'Tham quan trụ sở IQ OPTION tại Síp',
+				caption: [
+					'Đã bao gồm vé máy bay và chi phí khách sạn',
+					'Tham quan văn phòng',
+					'Gặp gỡ và chào hỏi với các quản lý cấp cao',
+					'Gala dinner',
+					'Chương trình tham quan'
+				]
+			},
+			{
+				label: 'Trải nghiệm',
+				caption: [
+					'Trải nghiệm hạng VIP của Giải đua xe Công thức 1',
+					'Các sự kiện thể thao HÀNG ĐẦU (NBA, Bóng đá, Quần vợt, Đua xe thể thao, Cricket, v.v...)',
+					'Các buổi hòa nhạc và lễ hội',
+					'Công viên giải trí (Disney world, Universal Studios, Ferrari world...)',
+					'Khu nghỉ dưỡng trượt tuyết',
+					'Nhà hàng đạt sao Michelin',
+					'Tham quan bằng trực thăng (Bangkok, Dubai, Singapore, New York....)',
+					'Cầm lái xe thể thao'
+				]
+			},
+			{
+				label: 'Sự kiện riêng tư',
+				caption: 'Sự kiện và tiệc giao lưu riêng tư dành cho các nhà giao dịch hàng đầu'
+			}
+		],
+		items_gifts: [
+			{
+				label: 'Thời trang hàng hiệu',
+				caption: 'Áo phông, áo hoodie, mũ lưỡi trai, mũ, áo polo'
+			},
+
+			{
+				label: 'Phụ kiện hàng hiệu',
+				caption: 'Khăn tắm, dép tông, kính râm, bikini'
+			},
+
+			{
+				label: 'Biểu tượng thành viên Elite của IQ Option',
+				caption: 'Tấm bảng được cá nhân hóa hoàn toàn để ghi nhận cấp độ thành viên của bạn'
+			},
+			{
+				label: 'Thiết lập Pro Trading',
+				caption: [
+					'Laptop đời mới nhất',
+					'Màn hình độ phân giải cao',
+					'Phụ kiện (chuột, bàn phím, camera)',
+					'Ghế chơi game chuyên nghiệp'
+				]
+			},
+
+			{
+				label: 'Đồ công nghệ của thương hiệu lớn',
+				caption: 'Máy chơi game, tai nghe, ví tiền điện tử lưu trữ lạnh, loa'
+			},
+
+			{
+				label: 'Trang sức hàng hiệu',
+				caption: 'Nhẫn, vòng cổ'
+			}
+		]
+	},
 	registration: {
 		title: 'Độc quyền.<br />Phần thưởng.<br />Cá nhân hóa.',
 		welcome: 'Chào mừng bạn đến với câu lạc bộ.',

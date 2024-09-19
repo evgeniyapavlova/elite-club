@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import Intro from './Intro/Intro.svelte';
 	import Intro2 from './Intro2/Intro2.svelte';
-	import Screens from './Screens/Screens.svelte';
+	import Screens from './Screens/Screens2.svelte';
 	import Benefits from './Benefits/Benefits.svelte';
 	import Faq from './FAQ/FAQ.svelte';
 	import introBgr from './Intro2/img/intro2-bgr.webp';
@@ -33,20 +33,20 @@
 	});
 </script>
 
-<Intro bind:isTranslationLoaded content={translation?.intro} {lang} />
+<!-- <Intro bind:isTranslationLoaded content={translation?.intro} {lang} /> -->
 
 <div class="intro2-bgr has-bgr" data-bgimage={introBgr}>
-	<div class="divider"></div>
+	<!-- <div class="divider"></div>
 	{#if translation?.intro2}
 		<Intro2 content={translation.intro2} />
 	{/if}
-	<div class="divider"></div>
+	<div class="divider"></div> -->
 	{#if translation?.screens}
 		<Screens content={translation.screens} />
 	{/if}
 </div>
 
-<div class="divider"></div>
+<!-- <div class="divider"></div>
 {#if translation?.benefits}
 	<Benefits content={translation.benefits} />
 {/if}
@@ -65,7 +65,7 @@
 
 {#if translation?.footer}
 	<Footer content={translation.footer} />
-{/if}
+{/if} -->
 
 <style>
 	.intro2-bgr {

@@ -1,4 +1,107 @@
 export default {
+	benefits: {
+		heading: 'Eline hone ke laabhon ko jaane',
+		thead: [
+			{ label: 'Star', caption: 'Default rup se' },
+			{ label: 'Legend', caption: 'Profile wale upyogkarta' }
+		],
+		menuItems: ['Sevaayen', 'Shiksha', 'Anubhav', 'Upahaar'],
+		items_services: [
+			{ label: 'IQ Options Elite Status' },
+			{
+				label: 'Elite Account Manager',
+				caption:
+					'Vyaktigat manager aapko sabhi cheejon ke trade me sahaayta kaega aur aapko laabhon ke baare me suchit rakhega'
+			},
+			{
+				label: 'Sarvottam peshewaron se vishesh sevaayen',
+				caption: ['Dhan Prabandhan', 'Tax advisory', 'Social Media Prabandhan', 'Yatra Prabandhan']
+			}
+		],
+		items_education: [
+			{
+				label: 'Vyaavsayik trading courses (Online)',
+				caption: ['Options Trading', 'Forex Trading', 'Stocks Trading']
+			},
+			{
+				label: 'Webinars (Online)',
+				caption: 'Trading experts dvaara aayojit'
+			},
+			{
+				label: 'Trading Sessions (Online)',
+				caption: 'Hamaare experts ke saath niji trading session'
+			},
+			{
+				label: 'Trading par masterclasses (Online)',
+				caption: 'Traders ke chhote samuh ke liye private aur vishesh shiksha karyakram'
+			}
+		],
+		items_experience: [
+			{
+				label: 'IQ OPTION Cyprus Mukhyalaya ka dauraa',
+				caption: [
+					'Vimaan aur Hotel kharch sahit',
+					'Office tour',
+					'Shirsh prabandhan se milen aur abhivaadan karen',
+					'Gala dinner',
+					'Darshaniya sthalon ka bhraman kaaryakram'
+				]
+			},
+			{
+				label: 'Anubhav',
+				caption: [
+					'Formula 1 Grand Prix VIP Anubhav',
+					'Khel ke shirsh aayojan (NBA, Football, Tennis, Motorsport, Cricket, aadi...)',
+					'Sangeet samaaroh aur tyohaar',
+					'Theme parks (Disney world, Universal Studios, Ferrari world...)',
+					'Ski Resorts',
+					'Michellin stars restaurants',
+					'Helicopter ki savaari (Bangkok, Dubai, Singapore, New York....)',
+					'Sport car driving'
+				]
+			},
+			{
+				label: 'Niji Karyakaram',
+				caption: 'Shirsh traderon ke liye niji networking karyakaram aur partiyaan'
+			}
+		],
+		items_gifts: [
+			{
+				label: 'Branded Kapden',
+				caption: 'T-shirt, hoodie, cap, hat, polo'
+			},
+
+			{
+				label: 'Branded Samaan',
+				caption: 'Towel, flip flops, dhup chasma, bikini'
+			},
+
+			{
+				label: 'IQ Option Elite Sadasya Plaque',
+				caption:
+					'Aapki sadasyata ke star ko pahchaan dene ke liye puri tarah se vaiyaktikrit plaque'
+			},
+			{
+				label: 'Pro Trading Setup',
+				caption: [
+					'Nayi pidhi ke laptop',
+					'High resolution monitor',
+					'Sahaayak upkaran (mouse, keyboard, cam)',
+					'Pro gaming kursi'
+				]
+			},
+
+			{
+				label: 'Branded Tech',
+				caption: 'Video console, headphones, cold storage crypto wallet, speaker'
+			},
+
+			{
+				label: 'Branded Jewelery',
+				caption: 'Anghuthi, necklace'
+			}
+		]
+	},
 	registration: {
 		title: 'Vishesh.<br />Rewarding.<br />Personalized.',
 		welcome: 'Club me aapka swaagat hai, priye',
