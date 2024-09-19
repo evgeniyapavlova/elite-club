@@ -1,4 +1,111 @@
 export default {
+	benefits: {
+		heading: 'Jelajahi manfaat menjadi Elite',
+		thead: [
+			{ label: 'Bintang', caption: 'Secara default' },
+			{ label: 'Legenda', caption: 'Pengguna terprofil' }
+		],
+		menuItems: ['Layanan', 'Edukasi', 'Pengalaman', 'Hadiah'],
+		items_services: [
+			{ label: 'Status IQ Option Elite' },
+			{
+				label: 'Manajer Akun Elite',
+				caption:
+					'Manajer pribadi yang akan membantu Anda dalam hal trading serta memberikan informasi tentang manfaatnya'
+			},
+			{
+				label: 'Layanan Eksklusif dari Profesional Terbaik',
+				caption: [
+					'Manajemen Modal',
+					'Konsultasi pajak',
+					'Manajemen Media Sosial',
+					'Manajemen Perjalanan'
+				]
+			}
+		],
+		items_education: [
+			{
+				label: 'Kursus Trading profesional (Online)',
+				caption: ['Trading Opsi', 'Trading Valas', 'Trading Saham']
+			},
+			{
+				label: 'Webinar (Online)',
+				caption: 'Diselenggarakan oleh pakar trading'
+			},
+			{
+				label: 'Sesi Trading (Online)',
+				caption: 'Sesi trading pribadi bersama pakar kami'
+			},
+			{
+				label: 'Kelas Master Trading (Online)',
+				caption: 'Acara edukasi pribadi dan eksklusif bagi kelompok kecil trader'
+			}
+		],
+		items_experience: [
+			{
+				label: 'Kunjungan Kantor Pusat IQ OPTION di Siprus',
+				caption: [
+					'Pesawat dan Hotel sudah termasuk',
+					'Keliling kantor',
+					'Bertemu dengan manajemen puncak',
+					'Jamuan makan malam',
+					'Program wisata'
+				]
+			},
+			{
+				label: 'Pengalaman',
+				caption: [
+					'Pengalaman VIP Grand Prix Formula 1',
+					'Acara olahraga TOP (NBA, Sepak Bola, Tenis, Balap, Kriket, dsb...)',
+					'Konser dan festival musik',
+					'Taman hiburan (Disney world, Universal Studios, Ferrari world...)',
+					'Resor Ski',
+					'Restoran berbintang Michellin',
+					'Perjalanan dengan helikopter (Bangkok, Dubai, Singapura, New York....)',
+					'Mengendarai mobil sport'
+				]
+			},
+			{
+				label: 'Acara Pribadi',
+				caption: 'Acara berjejaring pribadi serta pesta bagi trader teratas'
+			}
+		],
+		items_gifts: [
+			{
+				label: 'Pakaian Bermerek',
+				caption: 'T-shirt, hoodie, topi, polo'
+			},
+
+			{
+				label: 'Aksesori Bermerek',
+				caption: 'Handuk, sandal, kacamata, bikini'
+			},
+
+			{
+				label: 'Papan Nama Anggota IQ Option Elite',
+				caption: 'Papan nama pribadi sebagai pengakuan atas level keanggotaan Anda'
+			},
+			{
+				label: 'Pengaturan Trading Profesional',
+				caption: [
+					'Laptop terbaru',
+					'Monitor resolusi tinggi',
+					'Aksesoris (mouse, keyboard, webcam)',
+					'Kursi gaming profesional'
+				]
+			},
+
+			{
+				label: 'Barak Teknologi Bermerek',
+				caption: 'Konsol video, headphone, cold storage crypto wallet, speaker'
+			},
+
+			{
+				label: 'Perhiasan Bermerek',
+				caption: 'Cincin, kalung'
+			}
+		]
+	},
 	registration: {
 		title: 'Eksklusif.<br />Menguntungkan.<br />Dipersonalisasi.',
 		welcome: 'Selamat datang di klub',

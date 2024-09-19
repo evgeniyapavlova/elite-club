@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import Intro from './Intro/Intro.svelte';
 	import Intro2 from './Intro2/Intro2.svelte';
-	import Screens from './Screens/Screens.svelte';
+	import Screens from './Screens/Screens2.svelte';
 	import Benefits from './Benefits/Benefits.svelte';
 	import Faq from './FAQ/FAQ.svelte';
 	import introBgr from './Intro2/img/intro2-bgr.webp';

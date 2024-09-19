@@ -1,4 +1,111 @@
 export default {
+	benefits: {
+		heading: 'Erkunden Sie die Vorteile der Zugehörigkeit zur Elite',
+		thead: [
+			{ label: 'Stern', caption: 'Standardmäßig' },
+			{ label: 'Legende', caption: 'Profilierte Nutzer' }
+		],
+		menuItems: ['Dienstleistungen', 'Weiterbildung', 'Erfahrung', 'Geschenke'],
+		items_services: [
+			{ label: 'IQ Options Elite Status' },
+			{
+				label: 'Elite Kontomanager',
+				caption:
+					'Persönlicher Manager, der Sie in allen Handelsangelegenheiten unterstützt und Sie über die Vorteile auf dem Laufenden hält'
+			},
+			{
+				label: 'Exklusive Dienstleistungen von den besten Profis',
+				caption: [
+					'Vermögensverwaltung',
+					'Steuerberatung',
+					'Social-Media-Management',
+					'Reiseorganisation'
+				]
+			}
+		],
+		items_education: [
+			{
+				label: 'Professionelle Handelskurse (Online)',
+				caption: ['Optionshandel', 'Devisenhandel', 'Aktienhandel']
+			},
+			{
+				label: 'Webinare (Online)',
+				caption: 'Von Handelsexperten gehalten'
+			},
+			{
+				label: 'Handelssitzungen (Online)',
+				caption: 'Private Handelssitzungen mit unseren Experten'
+			},
+			{
+				label: 'Meisterklassen zum Handel (Online)',
+				caption: 'Private und exklusive Bildungsveranstaltungen für eine kleine Gruppe von Händlern'
+			}
+		],
+		items_experience: [
+			{
+				label: 'Besuch der Hauptverwaltung IQ OPTION Zypern',
+				caption: [
+					'Flüge und Hotel inbegriffen',
+					'Besichtigung der Verwaltung',
+					'Treffen mit dem Top-Management',
+					'Galadinner',
+					'Besichtigungsprogramm'
+				]
+			},
+			{
+				label: 'Erlebnisse',
+				caption: [
+					'Formel 1 Grand Prix VIP-Erlebnis',
+					'Sportliche TOP-Ereignisse (NBA, Fußball, Tennis, Motorsport, Cricket, etc...)',
+					'Musikkonzerte und -festivals',
+					'Themenparks (Disney World, Universal Studios, Ferrari World...)',
+					'Skiresorts',
+					'Michelin-Sternerestaurants',
+					'Hubschrauberflug (Bangkok, Dubai, Singapur, New York...)',
+					'Sportwagen fahren'
+				]
+			},
+			{
+				label: 'Private Events',
+				caption: 'Private Networking-Veranstaltungen und Partys für Top-Händler'
+			}
+		],
+		items_gifts: [
+			{
+				label: 'Markenbekleidung',
+				caption: 'T-Shirt, Kapuzenpulli, Mütze, Hut, Polo'
+			},
+
+			{
+				label: 'Markenartikel',
+				caption: 'Handtuch, Flip-Flops, Sonnenbrille, Bikini'
+			},
+
+			{
+				label: 'IQ Option Elite Mitgliedsplakette',
+				caption: 'Vollständig personalisierte Plakette zur Anerkennung Ihres Mitgliedsstatus'
+			},
+			{
+				label: 'Profi-Handelseinstellungen',
+				caption: [
+					'Laptop der neuesten Generation',
+					'Hochauflösender Monitor',
+					'Zubehör (Maus, Tastatur, Webcam)',
+					'Profi-Gaming-Stuhl'
+				]
+			},
+
+			{
+				label: 'Markentechnik',
+				caption: 'Videokonsole, Kopfhörer, Cold Storage Crypto Wallet, Lautsprecher'
+			},
+
+			{
+				label: 'Markenschmuck',
+				caption: 'Ring, Halsband'
+			}
+		]
+	},
 	registration: {
 		title: 'Exklusiv.<br />Lohnend.<br />Personalisiert.',
 		welcome: 'Willkommen im Club',

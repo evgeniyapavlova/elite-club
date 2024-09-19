@@ -1,4 +1,111 @@
 export default {
+	benefits: {
+		heading: 'Explora los beneficios de ser la Elite',
+		thead: [
+			{ label: 'Estrella', caption: 'Por defecto' },
+			{ label: 'Leyenda', caption: 'Perfiles de Usuario' }
+		],
+		menuItems: ['Servicios', 'Formación', 'Experiencia', 'Regalos'],
+		items_services: [
+			{ label: 'Estatus IQ Options Elite' },
+			{
+				label: 'Gestor de Cuenta Elite',
+				caption:
+					'Un gestor personal que te ayudará en todo lo relacionado con el trading y te mantendrá informado sobre las ventajas.'
+			},
+			{
+				label: 'Servicios Exclusivos de los Mejores Profesionales',
+				caption: [
+					'Gestión de Patrimonio',
+					'Asesoramiento Fiscal',
+					'Gestión de redes sociales',
+					'Gestión de Viajes'
+				]
+			}
+		],
+		items_education: [
+			{
+				label: 'Cursos Profesionales de Trading (Online)',
+				caption: ['Trading de Opciones', 'Trading de Forex', 'Trading de Valores']
+			},
+			{
+				label: 'Webinarios (Online)',
+				caption: 'A cargo de expertos en trading'
+			},
+			{
+				label: 'Sesiones de Trading (Online)',
+				caption: 'Sesiones privadas de trading con nuestros expertos'
+			},
+			{
+				label: 'Masterclasses de Trading (Online)',
+				caption: 'Eventos educativos privados y exclusivos para grupos reducidos de traders'
+			}
+		],
+		items_experience: [
+			{
+				label: 'Visita la Sede Central de IQ OPTION en Chipre',
+				caption: [
+					'Vuelos y Hotel incluidos',
+					'Visita a la oficina',
+					'Conoce y saluda a los altos directivos',
+					'Cena de Gala',
+					'Programa turístico'
+				]
+			},
+			{
+				label: 'Experiencias',
+				caption: [
+					'Experiencia VIP en el Gran Premio de Fórmula 1',
+					'Eventos deportivos TOP (NBA, Fútbol, Tenis, Automovilismo, Cricket, etc...)',
+					'Conciertos y festivales de música',
+					'Parques temáticos (Disney World, Universal Studios, Ferrari World...)',
+					'Estaciones de esquí',
+					'Restaurantes con estrellas de Michelin',
+					'Paseo en helicóptero (Bangkok, Dubai, Singapur, Nueva York....)',
+					'Conducción de coches deportivos'
+				]
+			},
+			{
+				label: 'Eventos privados',
+				caption: 'Fiestas y eventos privados para los mejores traders'
+			}
+		],
+		items_gifts: [
+			{
+				label: 'Ropa de Marca',
+				caption: 'Camiseta, sudadera, gorra, sombrero, polo'
+			},
+
+			{
+				label: 'Accesorios de Marca',
+				caption: 'Toalla, chanclas, gafas de sol, bikini'
+			},
+
+			{
+				label: 'Placa de Miembro de Élite de IQ Option',
+				caption: 'Placa totalmente personalizada para reconocer tu nivel de membresía'
+			},
+			{
+				label: 'Setup de Trading Profesional',
+				caption: [
+					'Portátil de última generación',
+					'Monitor de alta resolución',
+					'Accesorios (ratón, teclado, cámara)',
+					'Silla de gaming profesional'
+				]
+			},
+
+			{
+				label: 'Tecnología de marca',
+				caption: 'Videoconsolas, auriculares, monedero cold storage de criptomonedas, altavoces'
+			},
+
+			{
+				label: 'Joyería de marca',
+				caption: 'Anillo, collar'
+			}
+		]
+	},
 	registration: {
 		title: 'Exclusivo.<br />Gratificante.<br />Personalizado.',
 		welcome: 'Bienvenido al club, cariño',
