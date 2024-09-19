@@ -4,10 +4,10 @@
 	import ImageWithCaption from './ImageWithCaption.svelte';
 
 	import Heading from './Heading.svelte';
-	export let captions, images, heading, index;
+	export let captions, images, heading, index, withId;
 </script>
 
-<section class="screen-slide" id="screen-slide-{index}">
+<section class="screen-slide" id={withId ? `screen-slide-${index}` : ''}>
 	<Heading {heading} />
 	<div class="screen-content">
 		<ImageWithCaption image={images[0]} caption={captions[0]} />
