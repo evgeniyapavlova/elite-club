@@ -1,5 +1,15 @@
 export default {
+	footer: {
+		terms: 'Điều khoản và Điều kiện',
+		privacy: 'Chính sách quyền riêng tư',
+		cookies: 'Cookies policy',
+		text: [
+			'The financial products offered by the company carry a high level of risk and can result in the loss of all your funds. You should never invest money that you cannot afford to lose.',
+			'This content is owned by SKY LADDER LLC and is only intended to users that are not residents of EEA.'
+		]
+	},
 	benefits: {
+		button: 'Gia nhập câu lạc bộ',
 		heading: 'Khám phá quyền lợi Elite',
 		thead: [
 			{ label: 'Sao', caption: 'Mặc định' },
@@ -115,7 +125,11 @@ export default {
 			'Điều khoản và Điều kiện',
 			'và',
 			'Chính sách quyền riêng tư'
-		]
+		],
+		back: 'Back to the form',
+		thank: 'Thanks, your request has been sent.',
+		fill_survey_text: 'Fill in the survey to let us customise your membership.',
+		fill_survey_button: 'Fill the survey'
 	},
 	intro: {
 		h1: 'Chào mừng bạn đến với Elite Club của IQ Option',

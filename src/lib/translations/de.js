@@ -1,5 +1,15 @@
 export default {
+	footer: {
+		terms: 'Allgemeinen Geschäftsbedingungen',
+		privacy: 'Datenschutzrichtlinie',
+		cookies: 'Cookies policy',
+		text: [
+			'The financial products offered by the company carry a high level of risk and can result in the loss of all your funds. You should never invest money that you cannot afford to lose.',
+			'This content is owned by SKY LADDER LLC and is only intended to users that are not residents of EEA.'
+		]
+	},
 	benefits: {
+		button: 'Dem Club beitreten',
 		heading: 'Erkunden Sie die Vorteile der Zugehörigkeit zur Elite',
 		thead: [
 			{ label: 'Stern', caption: 'Standardmäßig' },
@@ -120,7 +130,11 @@ export default {
 			'Allgemeinen Geschäftsbedingungen',
 			'und die',
 			'Datenschutzrichtlinie'
-		]
+		],
+		back: 'Back to the form',
+		thank: 'Thanks, your request has been sent.',
+		fill_survey_text: 'Fill in the survey to let us customise your membership.',
+		fill_survey_button: 'Fill the survey'
 	},
 
 	intro: {

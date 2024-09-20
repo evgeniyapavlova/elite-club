@@ -33,6 +33,7 @@ export default {
 	},
 	intro2: 'Elevate your trading journey with unmatched benefits.',
 	benefits: {
+		button: 'Join the club',
 		heading: 'Explore the benefits<br /> of being Elite',
 		thead: [
 			{ label: 'Star', caption: 'By default' },

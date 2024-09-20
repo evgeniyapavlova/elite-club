@@ -1,5 +1,15 @@
 export default {
+	footer: {
+		terms: 'ข้อตกลงและเงื่อนไข',
+		privacy: 'นโยบายความเป็นส่วนตัว',
+		cookies: 'Cookies policy',
+		text: [
+			'The financial products offered by the company carry a high level of risk and can result in the loss of all your funds. You should never invest money that you cannot afford to lose.',
+			'This content is owned by SKY LADDER LLC and is only intended to users that are not residents of EEA.'
+		]
+	},
 	benefits: {
+		button: 'เข้าร่วมคลับ',
 		heading: 'สำรวจสิทธิประโยชน์ของ Elite',
 		thead: [
 			{ label: 'ดาว', caption: 'ตามค่าเริ่มต้น' },
@@ -115,7 +125,11 @@ export default {
 		email: 'อีเมล',
 		telegram: 'Telegram',
 		button: 'ส่งคำขอ',
-		terms: ['การดำเนินการต่อถือว่าคุณยอมรับ', 'ข้อตกลงและเงื่อนไข', 'และ', 'นโยบายความเป็นส่วนตัว']
+		terms: ['การดำเนินการต่อถือว่าคุณยอมรับ', 'ข้อตกลงและเงื่อนไข', 'และ', 'นโยบายความเป็นส่วนตัว'],
+		back: 'Back to the form',
+		thank: 'Thanks, your request has been sent.',
+		fill_survey_text: 'Fill in the survey to let us customise your membership.',
+		fill_survey_button: 'Fill the survey'
 	},
 	intro: {
 		h1: 'ยินดีต้อนรับสู่ IQ Option Elite Club',
