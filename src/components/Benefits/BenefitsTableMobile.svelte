@@ -5,7 +5,7 @@
 
 <div class="table-benefits-mobile">
 	<div class="thead">
-		<h5>{thead[0].label}</h5>
+		<div class="h5">{thead[0].label}</div>
 		<div class="caption">{thead[0].caption}</div>
 	</div>
 	<div class="tbody">
@@ -16,7 +16,7 @@
 		{/each}
 	</div>
 	<div class="thead">
-		<h5>{thead[1].label}</h5>
+		<div class="h5">{thead[1].label}</div>
 		<div class="caption">{thead[1].caption}</div>
 	</div>
 	<div class="tbody">
@@ -35,7 +35,7 @@
 		justify-content: space-between;
 		margin: 32px 0 16px;
 	}
-	h5 {
+	.h5 {
 		font-size: 24px;
 		line-height: 1.1;
 		color: var(--accent-500);

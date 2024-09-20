@@ -8,7 +8,7 @@
 		<td></td>
 		{#each thead as thead_item}
 			<td>
-				<h5>{thead_item.label}</h5>
+				<div class="h5">{thead_item.label}</div>
 				{thead_item.caption}
 			</td>
 		{/each}
@@ -18,7 +18,7 @@
 			<tr>
 				<td>
 					<div class="text-wrap">
-						<h5>{item.label}</h5>
+						<div class="h5">{item.label}</div>
 
 						{#if item.caption}
 							<div class="caption">
@@ -55,7 +55,7 @@
 	table tr td:first-child {
 		text-align: left;
 	}
-	h5 {
+	.h5 {
 		font-size: 20px;
 		line-height: 1.4;
 		color: var(--graphite-100);
