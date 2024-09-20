@@ -27,7 +27,7 @@
 			<div class="menu-inner">
 				{#each locales as locale}
 					<a class="button-locale" href="{base}/{locale.code}">
-						<img src={flags[locale.code]} alt={locale.label} />
+						<img src={flags[locale.code]} alt="{locale.code} flag" />
 						{locale.label}
 					</a>
 				{/each}

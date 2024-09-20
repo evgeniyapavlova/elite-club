@@ -2,8 +2,8 @@
 	import { isDesktop } from '$lib/stores/isDesktop';
 	import InView from '../common/InView.svelte';
 	import Header from '../Header/Header.svelte';
-	import introBg from './img/intro-bg_1.jpg';
-	import introBgMobile from './img/intro-bg_mobile.jpg';
+	import introBg from './img/intro-bg_1.webp';
+	import introBgMobile from './img/intro-bg_mobile.webp';
 	export let lang, content, isTranslationLoaded;
 </script>
 
