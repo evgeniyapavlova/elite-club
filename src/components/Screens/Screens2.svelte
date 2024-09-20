@@ -106,4 +106,10 @@
 			opacity: 1;
 		}
 	}
+
+	@media screen and (max-width: 480px) {
+		section {
+			padding: 0 0 0 24px;
+		}
+	}
 </style>

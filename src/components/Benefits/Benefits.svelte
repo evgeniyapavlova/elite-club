@@ -35,11 +35,16 @@
 			const rect = target.getBoundingClientRect();
 			const windowHeight = window.innerHeight;
 
-			if (rect.top >= 0 && rect.top <= windowHeight) {
+			if (rect.bottom > windowHeight && rect.top < windowHeight * 1.7) {
 				isScrolledToElement = true;
 			} else {
 				isScrolledToElement = false;
 			}
+			// if (rect.top >= 0 && rect.bottom < 0) {
+			// 	isScrolledToElement = true;
+			// } else {
+			// 	isScrolledToElement = false;
+			// }
 		};
 
 		window.addEventListener('scroll', handleScroll);
@@ -63,14 +68,6 @@
 				<BenefitsMenu bind:active />
 			</div>
 
-			<div
-				class="benefits-menu benefits-menu-mobile {!isScrolledToElement
-					? 'is-visible'
-					: 'is-hidden'}"
-			>
-				<BenefitsMenuMobile bind:active />
-			</div>
-
 			<InView>
 				{#each items.filter((_, index) => index === active) as { id, list }, index (active)}
 					<div class="table-wrap" in:fly={{ y: 50, duration: 700 }}>
@@ -92,6 +89,9 @@
 			</div>
 		</div>
 	</SectionNoBgr>
+</div>
+<div class="benefits-menu benefits-menu-mobile" class:is-visible={isScrolledToElement}>
+	<BenefitsMenuMobile bind:active />
 </div>
 
 <style>
@@ -120,20 +120,21 @@
 			display: block;
 			position: sticky;
 			width: 100%;
-			top: calc(100vh - 24px - 63px);
+			bottom: 24px;
 			z-index: 2;
 			left: -24px;
 			transition:
 				opacity 0.2s ease-out,
+				height 0.4s ease-out,
 				transform 1s ease;
+			opacity: 0;
+			transform: translateY(50px);
+			height: 0;
 		}
 		.benefits-menu-mobile.is-visible {
 			opacity: 1;
 			transform: translateY(0);
-		}
-		.benefits-menu-mobile.is-hidden {
-			opacity: 0;
-			transform: translateY(50px);
+			height: 63px;
 		}
 	}
 
@@ -182,7 +183,7 @@
 			font-size: 40px;
 			line-height: 48px;
 			text-align: left;
-			margin-bottom: -38px;
+			margin-bottom: 56px;
 		}
 		.icon-wrap {
 			text-align: left;

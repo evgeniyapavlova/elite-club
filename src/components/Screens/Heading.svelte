@@ -32,4 +32,9 @@
 			margin-top: 0;
 		}
 	}
+	@media screen and (max-width: 480px) {
+		.screen-heading {
+			padding-right: 24px;
+		}
+	}
 </style>

@@ -63,7 +63,6 @@
 		.screen-content {
 			display: flex;
 			gap: 16px;
-
 			overflow: auto;
 			flex-flow: row nowrap;
 			overflow-y: hidden;

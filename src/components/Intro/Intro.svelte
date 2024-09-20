@@ -1,11 +1,16 @@
 <script>
+	import { isDesktop } from '$lib/stores/isDesktop';
 	import InView from '../common/InView.svelte';
 	import Header from '../Header/Header.svelte';
 	import introBg from './img/intro-bg_1.jpg';
 	export let lang, content, isTranslationLoaded;
 </script>
 
-<section class="has-bgr" data-bgimage={introBg}>
+<section
+	class="has-bgr"
+	data-bgimage={introBg}
+	style="background-attachment:{$isDesktop ? 'fixed' : 'scroll'};"
+>
 	<Header {lang} />
 	<div class="content">
 		{#if isTranslationLoaded}
@@ -83,7 +88,7 @@
 		display: flex;
 		flex-direction: column;
 		background-color: rgba(251, 179, 90, 0.1);
-		background-attachment: fixed;
+		/* background-attachment: fixed; */
 	}
 	.content {
 		max-width: 1366px;
