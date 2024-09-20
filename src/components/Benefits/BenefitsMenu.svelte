@@ -1,9 +1,7 @@
 <script>
 	import { icons } from './menuIcons';
 
-	export let active;
-
-	const items = ['Services', 'Education', 'Experience', 'Gifts'];
+	export let active, menuItems;
 
 	function toggleActive(index) {
 		active = index;
@@ -12,7 +10,7 @@
 
 <div class="benefits-menu-wrap">
 	<div class="benefits-menu">
-		{#each items as item, index}
+		{#each menuItems as item, index}
 			<button class={index === active && 'active'} on:click={() => toggleActive(index)}>
 				<div class="icon-wrap">
 					<svelte:component this={icons[index]} />
