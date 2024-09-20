@@ -8,6 +8,8 @@
 	import ShowMoreButton from './ShowMoreButton.svelte';
 
 	import images from './images';
+	import imagesMobile from './images_mobile';
+
 	export let content;
 
 	const items = content.items;
@@ -52,14 +54,27 @@
 			>
 				{#each items as { captions, heading }, index}
 					<SwiperSlide>
-						<Screen {index} images={images[index]} {captions} {heading} />
+						<Screen
+							{index}
+							imagesMobile={imagesMobile[index]}
+							images={images[index]}
+							{captions}
+							{heading}
+						/>
 					</SwiperSlide>
 				{/each}
 			</Swiper>
 		</div>
 		<div class="screens-mobile">
 			{#each items as { captions, heading }, index}
-				<Screen withId {index} images={images[index]} {captions} {heading} />
+				<Screen
+					withId
+					{index}
+					imagesMobile={imagesMobile[index]}
+					images={images[index]}
+					{captions}
+					{heading}
+				/>
 			{/each}
 		</div>
 	</div>
