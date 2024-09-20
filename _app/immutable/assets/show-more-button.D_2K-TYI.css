@@ -1,0 +1,1 @@
+button.show-more-button{font-size:14px;color:var(--graphite-500);text-align:center;margin-top:40px;display:none}@media screen and (max-width: 960px){button.show-more-button{display:block;margin:40px auto}}@media screen and (max-width: 480px){button.show-more-button{padding-right:24px}}
