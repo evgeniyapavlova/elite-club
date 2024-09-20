@@ -8,13 +8,12 @@
 </script>
 
 <div class="accordion-item">
-	<button class="item-label" on:click={handleClick}>
+	<button class="item-label" on:click={handleClick} aria-label="Open accordion item">
 		<div class="question">
 			{q}
 		</div>
 		<div class="arrow-wrap">
-			<button aria-label="Open accordion item" class="{open ? 'item-open' : 'item-closed'} arrow"
-			></button>
+			<div class="{open ? 'item-open' : 'item-closed'} arrow"></div>
 		</div>
 	</button>
 
@@ -75,6 +74,7 @@
 		position: relative;
 		background-color: var(--graphite-500);
 		transition: background-color ease-out 0.2s;
+		display: inline-block;
 	}
 
 	.arrow-wrap {
