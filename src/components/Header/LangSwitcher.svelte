@@ -17,7 +17,7 @@
 		on:click={() => (isExpanded = !isExpanded)}
 		class:is-expanded={isExpanded}
 	>
-		<img src={flags[lang]} alt={currentLocaleObj.label} />
+		<img src={flags[lang]} alt="{lang.toUpperCase()} flag" />
 		{currentLocaleObj.label}
 		<img class="arrow" src={ArrowImg} alt="Toggle dropdown visibility" />
 	</button>
@@ -27,7 +27,7 @@
 			<div class="menu-inner">
 				{#each locales as locale}
 					<a class="button-locale" href="{base}/{locale.code}">
-						<img src={flags[locale.code]} alt="{locale.code} flag" />
+						<img src={flags[locale.code]} alt="{locale.code.toUpperCase()} flag" />
 						{locale.label}
 					</a>
 				{/each}

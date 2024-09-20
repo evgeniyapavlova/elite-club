@@ -97,5 +97,5 @@
 	</SectionNoBgr>
 </div>
 <div class="benefits-menu benefits-menu-mobile" class:is-visible={isScrolledToElement}>
-	<BenefitsMenuMobile bind:active />
+	<BenefitsMenuMobile {menuItems} bind:active />
 </div>
