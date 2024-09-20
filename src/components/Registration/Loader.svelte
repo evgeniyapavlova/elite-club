@@ -1,0 +1,24 @@
+<span class="loader"> </span>
+
+<style>
+	.loader {
+		position: absolute;
+		left: calc(50% - 25px);
+		top: calc(50% - 25px);
+		display: block;
+		z-index: 4;
+		width: 50px;
+		aspect-ratio: 1;
+		border-radius: 50%;
+		background:
+			radial-gradient(farthest-side, var(--accent-500) 94%, #0000) top/8px 8px no-repeat,
+			conic-gradient(#0000 30%, var(--accent-500));
+		-webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
+		animation: l13 1s infinite linear;
+	}
+	@keyframes l13 {
+		100% {
+			transform: rotate(1turn);
+		}
+	}
+</style>

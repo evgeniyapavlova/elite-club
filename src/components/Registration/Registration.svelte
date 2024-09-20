@@ -4,9 +4,16 @@
 	import InView from '../common/InView.svelte';
 	import Form from './Form.svelte';
 	import { termsLinks } from '../../lib/utils/constants';
+	import Success from './Success.svelte';
 
 	export let content, lang;
 	const { terms } = content;
+	const { back, thank, fill_survey_text, fill_survey_button } = content;
+	let isRegistrationSuccess = false;
+
+	function updateSuccess(value) {
+		isRegistrationSuccess = value;
+	}
 </script>
 
 <section id="registration" data-lang={lang}>
@@ -24,22 +31,27 @@
 				<div class="welcome-text">{content.welcome}</div></InView
 			>
 		</div>
+
 		<div class="wrap-form">
-			<p class="form-head-text">
-				{content.fill_form}
-			</p>
-			<Form
-				labels={[content.contact, content.email]}
-				placeholders={[content.email, content.email]}
-				options={[content.email, content.telegram]}
-				button={content.button}
-			/>
-			<p class="form-terms-text">
-				{terms[0]}
-				<TextLink href={termsLinks.terms}>{terms[1]}</TextLink>
-				{terms[2]}
-				<TextLink href={termsLinks.privacy}>{terms[3]}</TextLink>
-			</p>
+			{#if isRegistrationSuccess}
+				<Success {updateSuccess} content={[back, thank, fill_survey_text, fill_survey_button]} />
+			{:else}
+				<p class="form-head-text">
+					{content.fill_form}
+				</p>
+				<Form
+					labels={[content.contact, content.email]}
+					options={[content.email, content.telegram]}
+					button={content.button}
+					{updateSuccess}
+				/>
+
+				<p class="form-terms-text">
+					{terms[0]}
+					<TextLink href={termsLinks.terms}>{terms[1]}</TextLink>
+					{terms[2]}
+					<TextLink href={termsLinks.privacy}>{terms[3]}</TextLink>
+				</p>{/if}
 		</div>
 	</div>
 </section>
