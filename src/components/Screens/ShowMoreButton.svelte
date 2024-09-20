@@ -34,4 +34,9 @@
 			margin: 40px auto;
 		}
 	}
+	@media screen and (max-width: 480px) {
+		button {
+			padding-right: 24px;
+		}
+	}
 </style>

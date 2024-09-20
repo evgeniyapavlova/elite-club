@@ -39,7 +39,7 @@
 	}
 
 	.footer-info {
-		margin: 32px 0;
+		margin: 40px 0;
 	}
 
 	.footer-copyright {
@@ -70,7 +70,10 @@
 		}
 		:global(.footer-links a) {
 			margin-right: 0;
-			margin-bottom: 8px;
+			margin-bottom: 32px;
+		}
+		.footer-info {
+			margin-top: 8px;
 		}
 	}
 
