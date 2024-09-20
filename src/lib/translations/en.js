@@ -17,7 +17,12 @@ export default {
 		email: 'E-mail',
 		telegram: 'Telegram',
 		button: 'Send request',
-		terms: ['By continuing you accept our', 'Terms & Conditions', 'and', 'Privacy policy']
+		terms: ['By continuing you accept our', 'Terms & Conditions', 'and', 'Privacy policy'],
+
+		back: 'Back to the form',
+		thank: 'Thanks, your request has been sent.',
+		fill_survey_text: 'Fill in the survey to let us customise your membership.',
+		fill_survey_button: 'Fill the survey'
 	},
 	intro: {
 		h1: 'Welcome to<br /> IQ Option Elite Club',
