@@ -33,7 +33,7 @@
 	});
 </script>
 
-<!-- <Intro bind:isTranslationLoaded content={translation?.intro} {lang} />
+<Intro bind:isTranslationLoaded content={translation?.intro} {lang} />
 
 <div class="intro2-bgr has-bgr" data-bgimage={introBgr}>
 	<div class="divider"></div>
@@ -50,13 +50,13 @@
 {#if translation?.benefits}
 	<Benefits content={translation.benefits} />
 {/if}
-<div class="divider"></div> -->
+<div class="divider"></div>
 
 {#if translation?.registration}
 	<Registration content={translation.registration} {lang} />
 {/if}
 
-<!-- <div class="divider"></div>
+<div class="divider"></div>
 
 {#if translation?.faq}
 	<Faq content={translation.faq} />
@@ -65,7 +65,7 @@
 
 {#if translation?.footer}
 	<Footer content={translation.footer} />
-{/if} -->
+{/if}
 
 <style>
 	.intro2-bgr {
