@@ -1,5 +1,15 @@
 export default {
+	footer: {
+		terms: 'শর্তাবলি',
+		privacy: 'গোপনীয়তার নীতিমালা',
+		cookies: 'Cookies policy',
+		text: [
+			'The financial products offered by the company carry a high level of risk and can result in the loss of all your funds. You should never invest money that you cannot afford to lose.',
+			'This content is owned by SKY LADDER LLC and is only intended to users that are not residents of EEA.'
+		]
+	},
 	benefits: {
+		button: 'ক্লাবে যোগ দিন',
 		heading: 'এলিট হওয়ার সুবিধাদি অনুসন্ধান করুন',
 		thead: [
 			{ label: 'তারকা', caption: 'ডিফল্ট হিসেবে' },
@@ -120,7 +130,11 @@ export default {
 			'শর্তাবলি',
 			'এবং',
 			'গোপনীয়তার নীতিমালা'
-		]
+		],
+		back: 'Back to the form',
+		thank: 'Thanks, your request has been sent.',
+		fill_survey_text: 'Fill in the survey to let us customise your membership.',
+		fill_survey_button: 'Fill the survey'
 	},
 	intro: {
 		h1: 'IQ Option এলিট ক্লাবে স্বাগতম',

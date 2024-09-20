@@ -1,5 +1,15 @@
 export default {
+	footer: {
+		terms: '条款和条件',
+		privacy: '隐私政策',
+		cookies: 'Cookies policy',
+		text: [
+			'The financial products offered by the company carry a high level of risk and can result in the loss of all your funds. You should never invest money that you cannot afford to lose.',
+			'This content is owned by SKY LADDER LLC and is only intended to users that are not residents of EEA.'
+		]
+	},
 	benefits: {
+		button: '加入俱乐部',
 		heading: '探索成为精英的好处',
 		thead: [
 			{ label: '明星', caption: '默认情况下' },
@@ -102,7 +112,11 @@ export default {
 		email: '电子邮件',
 		telegram: 'Telegram',
 		button: '发送请求',
-		terms: ['继续即表示您接受我们的', '条款和条件', '和', '隐私政策']
+		terms: ['继续即表示您接受我们的', '条款和条件', '和', '隐私政策'],
+		back: 'Back to the form',
+		thank: 'Thanks, your request has been sent.',
+		fill_survey_text: 'Fill in the survey to let us customise your membership.',
+		fill_survey_button: 'Fill the survey'
 	},
 
 	intro: {

@@ -1,5 +1,15 @@
 export default {
+	footer: {
+		terms: '이용약관',
+		privacy: '개인정보 보호정책',
+		cookies: 'Cookies policy',
+		text: [
+			'The financial products offered by the company carry a high level of risk and can result in the loss of all your funds. You should never invest money that you cannot afford to lose.',
+			'This content is owned by SKY LADDER LLC and is only intended to users that are not residents of EEA.'
+		]
+	},
 	benefits: {
+		button: '클럽 참여하기',
 		heading: '엘리트 혜택 알아보기',
 		thead: [
 			{ label: '스타', caption: '기본' },
@@ -109,7 +119,11 @@ export default {
 		email: '이메일',
 		telegram: '텔레그램',
 		button: '요청 보내기',
-		terms: ['계속하면 다음에 동의하는 것입니다', '이용약관', '및', '개인정보 보호정책']
+		terms: ['계속하면 다음에 동의하는 것입니다', '이용약관', '및', '개인정보 보호정책'],
+		back: 'Back to the form',
+		thank: 'Thanks, your request has been sent.',
+		fill_survey_text: 'Fill in the survey to let us customise your membership.',
+		fill_survey_button: 'Fill the survey'
 	},
 	intro: {
 		h1: 'IQ Option 엘리트 클럽에 오신 것을 환영합니다',

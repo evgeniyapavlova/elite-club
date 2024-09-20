@@ -1,5 +1,15 @@
 export default {
+	footer: {
+		terms: 'Hüküm ve Koşullar',
+		privacy: 'Gizlilik politikası',
+		cookies: 'Cookies policy',
+		text: [
+			'The financial products offered by the company carry a high level of risk and can result in the loss of all your funds. You should never invest money that you cannot afford to lose.',
+			'This content is owned by SKY LADDER LLC and is only intended to users that are not residents of EEA.'
+		]
+	},
 	benefits: {
+		button: 'Kulübe katılın',
 		heading: 'Elite üye olmanın avantajlarını keşfedin',
 		thead: [
 			{ label: 'Yıldız', caption: 'Varsayılan olarak' },
@@ -120,7 +130,11 @@ export default {
 			'Hüküm ve Koşullar',
 			've',
 			'Gizlilik politikası'
-		]
+		],
+		back: 'Back to the form',
+		thank: 'Thanks, your request has been sent.',
+		fill_survey_text: 'Fill in the survey to let us customise your membership.',
+		fill_survey_button: 'Fill the survey'
 	},
 	intro: {
 		h1: "IQ Option Elite Club'a<br /> hoş geldiniz",

@@ -14,7 +14,8 @@
     height: auto !important;
     margin: 0 !important;
     font-family: 'Inter';
-    color: var(--graphite-500);
+    color: var(--graphite-100);
+    opacity: 0.2;
 
 }
 
@@ -24,7 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    color: var(--graphite-100);
+    opacity: 1;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active::after {
@@ -36,11 +37,3 @@
     background-image: linear-gradient(90deg, var(--graphite-100) 0%, var(--graphite-100) 50%, var(--graphite-500) 50%, var(--graphite-500) 100%);
     transition: all 0.2s ease-out;
 }
-
-.swiper-pagination-bullet:first-child {}
-
-.swiper-pagination-bullet:first-child::after {}
-
-.swiper-pagination-bullet:nth-child(2) {}
-
-.swiper-pagination-bullet:last-child {}

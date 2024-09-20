@@ -1,5 +1,15 @@
 export default {
+	footer: {
+		terms: 'Termini e condizioni',
+		privacy: 'Politica sulla privacy',
+		cookies: 'Cookies policy',
+		text: [
+			'The financial products offered by the company carry a high level of risk and can result in the loss of all your funds. You should never invest money that you cannot afford to lose.',
+			'This content is owned by SKY LADDER LLC and is only intended to users that are not residents of EEA.'
+		]
+	},
 	benefits: {
+		button: 'Unisciti al club',
 		heading: 'Scopri i benefici di far parte di Elite',
 		thead: [
 			{ label: 'Star', caption: 'Di default' },
@@ -116,7 +126,11 @@ export default {
 		email: 'E-mail',
 		telegram: 'Telegram',
 		button: 'Invia richiesta',
-		terms: ['Continuando accetti i nostri', 'Termini e condizioni', 'e', 'Politica sulla privacy']
+		terms: ['Continuando accetti i nostri', 'Termini e condizioni', 'e', 'Politica sulla privacy'],
+		back: 'Back to the form',
+		thank: 'Thanks, your request has been sent.',
+		fill_survey_text: 'Fill in the survey to let us customise your membership.',
+		fill_survey_button: 'Fill the survey'
 	},
 
 	intro: {
