@@ -3,12 +3,13 @@
 	import InView from '../common/InView.svelte';
 	import Header from '../Header/Header.svelte';
 	import introBg from './img/intro-bg_1.jpg';
+	import introBgMobile from './img/intro-bg_mobile.jpg';
 	export let lang, content, isTranslationLoaded;
 </script>
 
 <section
 	class="has-bgr"
-	data-bgimage={introBg}
+	data-bgimage={$isDesktop ? introBg : introBgMobile}
 	style="background-attachment:{$isDesktop ? 'fixed' : 'scroll'};"
 >
 	<Header {lang} />

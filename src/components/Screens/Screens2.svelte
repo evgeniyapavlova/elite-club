@@ -1,16 +1,30 @@
 <script>
 	import { Mousewheel, Pagination } from 'swiper';
+	import { onMount } from 'svelte';
 
 	import { Swiper, SwiperSlide } from 'swiper/svelte';
-	import 'swiper/css/bundle';
 
 	import Screen from './Screen.svelte';
 	import ShowMoreButton from './ShowMoreButton.svelte';
-	import './swiper-custom.css';
+
 	import images from './images';
 	export let content;
 
 	const items = content.items;
+
+	let isStyleLoaded = false;
+	async function loadStyle() {
+		if (!isStyleLoaded) {
+			await import('swiper/css/bundle');
+			await import('./screens.css');
+			await import('./swiper-custom.css');
+
+			isStyleLoaded = true;
+		}
+	}
+	onMount(() => {
+		loadStyle();
+	});
 </script>
 
 <section id="screens-wrap">
@@ -27,6 +41,7 @@
 					forceToAxis: true,
 					thresholdDelta: 10
 				}}
+				grabCursor
 				speed={850}
 				pagination={{
 					clickable: true,
@@ -51,65 +66,3 @@
 
 	<ShowMoreButton />
 </section>
-
-<style>
-	.screens-mobile,
-	.screens-desktop {
-		display: none;
-	}
-
-	@media screen and (min-width: 961px) {
-		.screens-desktop {
-			display: block;
-		}
-	}
-	section {
-		max-width: 1366px;
-		width: 100%;
-		margin: 0 auto;
-		padding: 48px;
-		position: relative;
-		overflow: hidden;
-		height: 100vh;
-	}
-
-	@media screen and (max-width: 1240px) {
-		section {
-			padding: 0 32px;
-		}
-		.screens-wrap {
-			border-radius: 40px;
-			overflow: hidden;
-		}
-	}
-
-	@media screen and (max-width: 960px) {
-		.screens-mobile {
-			display: block;
-		}
-		section {
-			padding: 0 24px;
-			height: auto;
-		}
-		.screens-wrap {
-			border-radius: 0;
-		}
-		:global(#screen-slide-2) {
-			display: none;
-			opacity: 0;
-			transition:
-				opacity 1s ease,
-				transform 1s ease;
-		}
-		:global(#screen-slide-2.visible) {
-			display: block;
-			opacity: 1;
-		}
-	}
-
-	@media screen and (max-width: 480px) {
-		section {
-			padding: 0 0 0 24px;
-		}
-	}
-</style>

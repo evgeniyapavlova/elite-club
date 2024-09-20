@@ -1,4 +1,15 @@
 <script>
+	import { onMount } from 'svelte';
+	let isStyleLoaded = false;
+	async function loadStyle() {
+		if (!isStyleLoaded) {
+			await import('./show-more-button.css');
+			isStyleLoaded = true;
+		}
+	}
+	onMount(() => {
+		loadStyle();
+	});
 	let isVisible = false;
 
 	function handleClick() {
@@ -16,27 +27,5 @@
 </script>
 
 {#if !isVisible}
-	<button on:click={handleClick}> +&nbsp;&nbsp;&nbsp;Show more </button>
+	<button class="show-more-button" on:click={handleClick}> +&nbsp;&nbsp;&nbsp;Show more </button>
 {/if}
-
-<style>
-	button {
-		font-size: 14px;
-		color: var(--graphite-500);
-		text-align: center;
-		margin-top: 40px;
-		display: none;
-	}
-
-	@media screen and (max-width: 960px) {
-		button {
-			display: block;
-			margin: 40px auto;
-		}
-	}
-	@media screen and (max-width: 480px) {
-		button {
-			padding-right: 24px;
-		}
-	}
-</style>
