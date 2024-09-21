@@ -59,6 +59,7 @@
 		font-size: 20px;
 		line-height: 1.4;
 		color: var(--graphite-100);
+		font-weight: 600;
 	}
 
 	tr td {

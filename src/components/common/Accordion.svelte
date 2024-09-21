@@ -125,15 +125,4 @@
 	.arrow.item-open::before {
 		height: 0;
 	}
-
-	@media screen and (max-width: 960px) {
-		.item-label {
-			font-size: 16px;
-			gap: 4px;
-		}
-		.answer {
-			font-size: 14px;
-			margin-top: 12px;
-		}
-	}
 </style>

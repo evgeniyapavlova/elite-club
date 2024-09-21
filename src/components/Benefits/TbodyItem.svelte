@@ -32,4 +32,8 @@
 		line-height: 24px;
 		font-weight: 600;
 	}
+	.caption {
+		font-size: 14px;
+		line-height: 24px;
+	}
 </style>
