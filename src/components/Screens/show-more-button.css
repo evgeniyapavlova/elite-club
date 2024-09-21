@@ -13,6 +13,13 @@ button.show-more-button {
     }
 }
 
+@media screen and (max-width: 600px) {
+    button.show-more-button {
+        margin-top: 24px;
+        margin-bottom: 0;
+    }
+}
+
 @media screen and (max-width: 480px) {
     button.show-more-button {
         padding-right: 24px;

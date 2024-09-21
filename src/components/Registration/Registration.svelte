@@ -182,6 +182,11 @@
 		h2[data-lang='ru'] {
 			font-size: 38px;
 		}
+		h2 {
+			color: var(--graphite-100);
+			background: none;
+			-webkit-text-fill-color: inherit;
+		}
 	}
 
 	@media screen and (max-width: 600px) {

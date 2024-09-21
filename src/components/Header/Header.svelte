@@ -45,7 +45,7 @@
 
 	@media screen and (max-width: 960px) {
 		header {
-			padding: 22px 32px;
+			padding: 12px 32px;
 		}
 		:global(header svg) {
 			height: 20px;
@@ -55,13 +55,13 @@
 
 	@media screen and (max-width: 600px) {
 		header {
-			padding: 22px 24px;
+			padding: 12px 24px;
 		}
 	}
 
 	@media screen and (max-width: 400px) {
 		header {
-			padding: 22px 16px;
+			padding: 12px 16px;
 		}
 	}
 </style>

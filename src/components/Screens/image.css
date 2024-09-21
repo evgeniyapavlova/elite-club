@@ -56,8 +56,15 @@
     }
 
     .screen-image .caption {
-        font-size: 24px;
+
         position: static;
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .screen-image .caption {
+        font-size: 24px;
         line-height: 1.1;
     }
 }
