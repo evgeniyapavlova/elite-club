@@ -31,7 +31,8 @@
 			},
 			{
 				root: null,
-				threshold: 0.5
+				rootMargin: '800px',
+				threshold: 0.1
 			}
 		);
 

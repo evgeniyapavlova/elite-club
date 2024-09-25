@@ -7,7 +7,7 @@
 
 <div
 	class="wrapper"
-	use:inview={{ unobserveOnEnter: true, rootMargin: '5%', threshold: '0.8' }}
+	use:inview={{ unobserveOnEnter: true, rootMargin: '5%', threshold: '0.4' }}
 	on:change={({ detail }) => {
 		isInView = detail.inView;
 	}}

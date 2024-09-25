@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import { fade } from 'svelte/transition';
 	import { locales } from './locales';
@@ -9,9 +10,27 @@
 	let isExpanded = false;
 
 	const currentLocaleObj = locales.find(({ code }) => code === lang);
+
+	onMount(() => {
+		function handleClick(event) {
+			const targetElement = event.target;
+			const wrapElement = document.getElementById('wrap-lang-switch');
+			const menuElement = document.getElementById('menu-lang-switch');
+
+			if (!wrapElement.contains(targetElement) && !menuElement.contains(targetElement)) {
+				isExpanded = false;
+			}
+		}
+
+		document.body.addEventListener('click', handleClick);
+
+		return () => {
+			document.body.removeEventListener('click', handleClick);
+		};
+	});
 </script>
 
-<div class="wrap">
+<div class="wrap" id="wrap-lang-switch">
 	<button
 		class="button-locale"
 		on:click={() => (isExpanded = !isExpanded)}

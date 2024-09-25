@@ -14,11 +14,7 @@
 
 	<div class="faq-content">
 		{#each items as item, idx}
-			{#if idx === 0}
-				<Accordion open {item} />
-			{:else}
-				<Accordion {item} />
-			{/if}
+			<Accordion {item} />
 		{/each}
 	</div>
 </SectionNoBgr>

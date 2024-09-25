@@ -19,14 +19,14 @@ section#screens-wrap {
     height: 100vh;
 }
 
+.screens-wrap {
+    border-radius: 40px;
+    overflow: hidden;
+}
+
 @media screen and (max-width: 1240px) {
     section#screens-wrap {
         padding: 0 32px;
-    }
-
-    .screens-wrap {
-        border-radius: 40px;
-        overflow: hidden;
     }
 }
 

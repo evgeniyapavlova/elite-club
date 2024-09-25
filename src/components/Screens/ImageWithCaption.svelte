@@ -17,8 +17,10 @@
 	});
 </script>
 
-<div class="screen-image image image-{isRight ? 'right' : 'left'}  has-bgr" data-bgimage={image}>
-	<div class="caption caption-{isRight ? 'right' : 'left'}">
+<div
+	class="screen-image image image-{isRight ? 'right' : 'left'}  has-bgr"
+	data-bgimage={image}
+></div>
+<!-- <div class="caption caption-{isRight ? 'right' : 'left'}">
 		<InView>{caption}</InView>
-	</div>
-</div>
+	</div> -->

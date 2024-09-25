@@ -49,5 +49,12 @@ section.screen-slide {
         flex-flow: row nowrap;
         overflow-y: hidden;
         scroll-snap-type: x mandatory;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+    }
+
+    .screen-content::-webkit-scrollbar {
+        display: none;
     }
 }

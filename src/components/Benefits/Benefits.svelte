@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	import { isDesktop } from '$lib/stores/isDesktop';
 	import { fly } from 'svelte/transition';
 	import SectionNoBgr from '../common/SectionNoBgr.svelte';
 	import InView from '../common/InView.svelte';
@@ -76,7 +77,7 @@
 
 			<InView>
 				{#each items.filter((_, index) => index === active) as { id, list } (active)}
-					<div class="table-wrap" in:fly={{ y: 50, duration: 700 }}>
+					<div class="table-wrap" in:fly={{ y: 50, duration: $isDesktop ? 700 : 300 }}>
 						<div class="table-desktop table">
 							<BenefitsTable checkmarks={checkmarks[id]} items={list} thead={content.thead} />
 						</div>
