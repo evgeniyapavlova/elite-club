@@ -39,7 +39,9 @@
 <div class="tg-input-wrap select-wrap" on:keydown={handleKeyPress}>
 	<Dropdown bind:isOpen id="tg-dropdown">
 		<svelte:fragment slot="button-content">
-			<div class="iti__flag iti__{phoneCodeData.value}" />
+			<div class="iti__flag-wrap">
+				<div class="iti__flag iti__{phoneCodeData.value}" />
+			</div>
 			+{phoneCodeData.phone}
 			<Arrow />
 		</svelte:fragment>

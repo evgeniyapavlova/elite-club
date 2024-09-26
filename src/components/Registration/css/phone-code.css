@@ -3,12 +3,8 @@
     height: 24px !important;
     width: 24px !important;
     min-width: 24px !important;
-    box-shadow: 0 0 1px #888;
     background-repeat: no-repeat;
-    /* border-radius: 24px; */
-
-    background-image: url(/images/flags_sprite_1.png);
-    /* position: relative; */
+    background-image: url(/images/flags_sprite_1.jpg);
 }
 
 .iti__flag-wrap {

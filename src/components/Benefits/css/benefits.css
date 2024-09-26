@@ -7,10 +7,11 @@
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url(/images/benefits-bgr.webp);
+    background-image: url(/images/benefits-bgr-1.webp);
     background-repeat: no-repeat;
     background-position: top center;
     top: -160px;
+    z-index: 0;
 }
 
 .benefits-bgr {
