@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	import { countryCode } from '../lib/stores/countryCode';
 
 	import './styles.css';
 
@@ -60,6 +61,12 @@
 	onMount(() => {
 		loadStyle();
 		lazyLoadBackgrounds();
+	});
+
+	onMount(async () => {
+		const res = await fetch('https://ipapi.co/json');
+		const result = await res.json();
+		countryCode.set(result.country_code.toLowerCase());
 	});
 </script>
 

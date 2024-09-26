@@ -3,9 +3,19 @@
     list-style-type: square;
 }
 
-.benefits-bgr {
+.benefits-bgr::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(/images/benefits-bgr.webp);
     background-repeat: no-repeat;
-    background-position: 50% top;
+    background-position: top center;
+    top: -160px;
+}
+
+.benefits-bgr {
+
+    position: relative;
 }
 
 .benefits-menu,
@@ -14,7 +24,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .benefits-bgr {
+    .benefits-bgr::before {
         background: none !important;
     }
 

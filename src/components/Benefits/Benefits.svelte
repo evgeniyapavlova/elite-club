@@ -62,7 +62,7 @@
 	});
 </script>
 
-<div class="benefits-bgr has-bgr" data-bgimage={benefitsBgr}>
+<div class="benefits-bgr">
 	<SectionNoBgr id="benefits">
 		<div class="benefits-wrap">
 			<div class="icon-wrap">

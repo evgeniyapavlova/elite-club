@@ -5,7 +5,7 @@
 	let isStyleLoaded = false;
 	async function loadStyle() {
 		if (!isStyleLoaded) {
-			await import('./success.css');
+			await import('../css/success.css');
 			isStyleLoaded = true;
 		}
 	}
@@ -40,5 +40,5 @@
 		{content[2]}
 	</div>
 
-	<a href="" class="button"><span>{content[3]}</span></a>
+	<!-- <a href="" class="button"><span>{content[3]}</span></a> -->
 </div>

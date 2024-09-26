@@ -7,3 +7,8 @@ export function emailValidator(value) {
 		false
 	);
 }
+
+export function phoneValidator(phoneNumber) {
+	const phoneRegex = /^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/;
+	return phoneRegex.test(phoneNumber);
+}

@@ -4,11 +4,11 @@
 	import InView from '../common/InView.svelte';
 	import Form from './Form.svelte';
 	import { termsLinks } from '../../lib/utils/constants';
-	import Success from './Success.svelte';
+	import Success from './components/Success.svelte';
 
 	export let content, lang;
 	const { terms } = content;
-	const { back, thank, fill_survey_text, fill_survey_button } = content;
+	const { back, thank, fill_survey_text, fill_survey_button, contact, email, emailLabel } = content;
 	let isRegistrationSuccess = false;
 
 	function updateSuccess(value) {
@@ -40,8 +40,8 @@
 					{content.fill_form}
 				</p>
 				<Form
-					labels={[content.contact, content.email]}
-					options={[content.email, content.telegram]}
+					labels={{ contact, email: emailLabel, tg: content.telegram }}
+					options={[email, content.telegram]}
 					button={content.button}
 					{updateSuccess}
 				/>

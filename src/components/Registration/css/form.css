@@ -1,0 +1,151 @@
+form .tg-input-wrap .field-wrap {
+    flex-grow: 1;
+}
+
+form .tg-input-wrap .select-styled {
+    width: 130px;
+}
+
+form .tg-input-wrap .select-styled {
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    position: relative;
+}
+
+form .tg-input-wrap {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 6px;
+}
+
+form.loading .fields-wrap {
+    opacity: 0.5;
+}
+
+form.loading {
+    pointer-events: none;
+    position: relative;
+}
+
+form .field-error .input-styled {
+    border: 1px solid #FE150D;
+}
+
+form button.button:disabled {
+    color: var(--graphite-800);
+    background-color: white;
+    background-image: linear-gradient(90deg, var(--graphite-500), var(--graphite-300));
+    pointer-events: none;
+}
+
+form {
+    width: 100%;
+}
+
+form .input-styled:not(.input-styled-dropdown-item) {
+    min-height: 62px;
+}
+
+form .input-styled.input-styled-dropdown-item {
+    min-height: 48px;
+}
+
+
+
+form .input-styled {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 30px 16px 12px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #313236;
+    cursor: pointer;
+    background-color: white;
+    transition: border-radius 0.2s ease-out;
+    text-align: left;
+
+}
+
+form .field-wrap {
+    position: relative;
+}
+
+form .label {
+    position: absolute;
+    z-index: 1;
+    left: 16px;
+    top: 12px;
+    font-size: 12px;
+    font-family: var(--suisse-font);
+    font-weight: 400;
+    color: #73726c;
+}
+
+
+
+form button.button[type='submit'] {
+    margin-top: 12px;
+    width: 100%;
+}
+
+form .select-wrap {
+    position: relative;
+}
+
+form .dropdown-menu button.input-styled-phone-code {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+form .dropdown-menu button {
+    display: block;
+    width: 100%;
+}
+
+form .dropdown-menu {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    width: 100%;
+    background-color: #fafafa;
+    max-height: 222px;
+    overflow-y: auto;
+    z-index: 3;
+    border-radius: 16px;
+    box-shadow: 0 24px 40px rgba(49, 50, 54, 0.12);
+    padding: 8px;
+}
+
+form .dropdown-menu button:hover {
+    background-color: rgba(251, 179, 90, 0.15);
+}
+
+form .dropdown-menu .input-styled.selected {
+    color: var(--accent-700);
+}
+
+form .dropdown-menu .input-styled {
+    padding: 12px 16px;
+    margin-bottom: 4px;
+    border-radius: 12px;
+    background-color: inherit;
+}
+
+form .select-styled.is-menu-open svg {
+    transform: rotate(180deg);
+}
+
+form .select-styled svg {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    transition: transform 0.2s ease-out;
+}
