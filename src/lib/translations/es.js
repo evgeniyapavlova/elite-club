@@ -123,6 +123,7 @@ export default {
 			'Rellena el formulario para unirte al club. Nuestros gestores se pondrán en contacto contigo para informarte de todas las características del programa',
 		contact: 'Cómo deseas ser contactado',
 		email: 'E-mail',
+		emailLabel: 'E-mail',
 		telegram: 'Telegram',
 		button: 'Enviar solicitud',
 		terms: [

@@ -124,6 +124,7 @@ export default {
 			'Preencha o formulário para ingressar no Club Nossos gerentes entrarão em contato para informá-lo sobre todos os recursos do programa',
 		contact: 'Como você gostaria de entrar em contato?',
 		email: 'E-mail',
+		emailLabel: 'E-mail',
 		telegram: 'Telegram',
 		button: 'Enviar solicitação',
 		terms: [

@@ -123,6 +123,7 @@ export default {
 			'Fyll i formuläret för att gå med i klubben. Våra managers kommer att kontakta dig för att förklara programmets funktioner',
 		contact: 'Hur vill du bli kontaktad',
 		email: 'E-post',
+		emailLabel: 'E-post',
 		telegram: 'Telegram',
 		button: 'Skicka förfrågan',
 		terms: ['Genom att fortsätta godkänner du våra', 'Villkor', 'och', 'Sekretesspolicy'],

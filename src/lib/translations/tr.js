@@ -123,6 +123,7 @@ export default {
 			'Kulübe katılmak için formu doldurun. Yöneticilerimiz programın tüm özellikleri hakkında bilgi vermek üzere sizinle iletişime geçecek',
 		contact: 'Sizinle nasıl iletişim kurmamızı istersiniz?',
 		email: 'E-posta',
+		emailLabel: 'E-posta',
 		telegram: 'Telegram',
 		button: 'İstek gönder',
 		terms: [

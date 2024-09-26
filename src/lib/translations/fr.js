@@ -123,6 +123,7 @@ export default {
 			'Remplissez le formulaire pour rejoindre le club. Nos responsables vous contacteront pour vous informer de toutes les fonctionnalités du programme',
 		contact: 'Comment souhaitez-vous nous contacter',
 		email: 'E-mail',
+		emailLabel: 'E-mail',
 		telegram: 'Telegram',
 		button: 'Envoyer une demande',
 		terms: [

@@ -15,6 +15,7 @@ export default {
 			'Fill out the form to join the club. Our managers will contact you to tell you about all the features of the program',
 		contact: 'How would you like to be contacted?',
 		email: 'E-mail',
+		emailLabel: 'Your IQ Option account E-mail',
 		telegram: 'Telegram',
 		button: 'Send request',
 		terms: ['By continuing you accept our', 'Terms & Conditions', 'and', 'Privacy policy'],

@@ -118,6 +118,7 @@ export default {
 			'Điền vào biểu mẫu để tham gia câu lạc bộ. Quản lý của chúng tôi sẽ liên hệ với bạn để giới thiệu với bạn về tất cả các tính năng của chương trình',
 		contact: 'Bạn muốn chúng tôi liên hệ bằng cách nào',
 		email: 'E-mail',
+		emailLabel: 'E-mail',
 		telegram: 'Telegram',
 		button: 'Gửi yêu cầu',
 		terms: [

@@ -110,6 +110,7 @@ export default {
 		fill_form: '填写表格加入俱乐部。我们的经理将与您联系，告诉您该计划的所有功能',
 		contact: '您希望如何联系',
 		email: '电子邮件',
+		emailLabel: '电子邮件',
 		telegram: 'Telegram',
 		button: '发送请求',
 		terms: ['继续即表示您接受我们的', '条款和条件', '和', '隐私政策'],
