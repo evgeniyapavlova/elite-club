@@ -60,3 +60,8 @@ footer {
         padding-right: 16px;
     }
 }
+
+.footer-info a {
+    color: inherit;
+    font-weight: 600;
+}

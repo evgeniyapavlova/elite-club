@@ -2,7 +2,6 @@
 	import Dropdown from './Dropdown.svelte';
 	import Arrow from './Arrow.svelte';
 	import { countryCodeOptions } from '../js/countryCodeOptions';
-	import Select from './Select.svelte';
 	import { phoneValidator } from '../js/validation';
 
 	let isOpen;

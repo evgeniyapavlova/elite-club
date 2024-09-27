@@ -28,8 +28,9 @@
 	</div>
 
 	<div class="footer-info">
-		{content.text[0]} <br /> <br />
-		{content.text[1]}
+		{#each content.text as txt}
+			{@html txt} <br /><br />
+		{/each}
 	</div>
 
 	<div class="footer-copyright">
