@@ -68,6 +68,7 @@
 
 	td {
 		padding: 22px 0 20px;
+		vertical-align: top;
 	}
 
 	table thead td:not(:first-child) {

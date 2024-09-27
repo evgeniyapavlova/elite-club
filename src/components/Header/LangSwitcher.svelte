@@ -17,7 +17,7 @@
 			const wrapElement = document.getElementById('wrap-lang-switch');
 			const menuElement = document.getElementById('menu-lang-switch');
 
-			if (!wrapElement.contains(targetElement) && !menuElement.contains(targetElement)) {
+			if (!wrapElement.contains(targetElement) && !menuElement?.contains(targetElement)) {
 				isExpanded = false;
 			}
 		}
