@@ -4,8 +4,10 @@ export default {
 		privacy: 'Política de Privacidade',
 		cookies: 'Cookies policy',
 		text: [
-			'The financial products offered by the company carry a high level of risk and can result in the loss of all your funds. You should never invest money that you cannot afford to lose.',
-			'This content is owned by SKY LADDER LLC and is only intended to users that are not residents of EEA.'
+			'Os produtos financeiros fornecidos pela empresa apresentam um alto nível de risco e podem resultar na perda de todos os seus fundos. Você nunca deve investir dinheiro que não pode perder.',
+			'Este conteúdo é de propriedade de SKY LADDER LLC e destina-se apenas a usuários que não são residentes do EEE.',
+			'Aviso legal: A IQ Option presta seus serviços exclusivamente no territórios em que está licenciada. A IQ Option não é autorizada pela CVM aos investidores brasileiros.',
+			'<a href="https://iqoption.com/pt/terms-and-conditions/disclaimer" target="_blank">Aviso legal completo</a>. Nada neste site deve ser entendido como uma oferta direta de serviços dirigida a esses investidores.'
 		]
 	},
 	benefits: {

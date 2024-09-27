@@ -4,8 +4,8 @@ export default {
 		privacy: 'গোপনীয়তার নীতিমালা',
 		cookies: 'Cookies policy',
 		text: [
-			'The financial products offered by the company carry a high level of risk and can result in the loss of all your funds. You should never invest money that you cannot afford to lose.',
-			'This content is owned by SKY LADDER LLC and is only intended to users that are not residents of EEA.'
+			'কোম্পানির অফার করা আর্থিক প্রোডাক্টগুলি উচ্চ স্তরের ঝুঁকি বহন করে এবং এর ফলে আপনার সমস্ত ফান্ডের লোকসান হতে পারে। আপনার কখনই এমন অর্থ বিনিয়োগ করা উচিত নয় যার লোকসানের ধকল আপনি সহ্য করতে পারবেন না।',
+			'এই বিষয়বস্তুটি SKY LADDER LLC-এর মালিকানাধীন এবং শুধুমাত্র সেই ব্যবহারকারীদের উদ্দেশ্যে প্রদান করা হয়েছে যারা EEA-এর বাসিন্দা নয়।'
 		]
 	},
 	benefits: {

@@ -4,8 +4,8 @@ export default {
 		privacy: 'Gopniyata Niti se sahmat hote hain',
 		cookies: 'Cookies policy',
 		text: [
-			'The financial products offered by the company carry a high level of risk and can result in the loss of all your funds. You should never invest money that you cannot afford to lose.',
-			'This content is owned by SKY LADDER LLC and is only intended to users that are not residents of EEA.'
+			'Company dvaara pradaan ki jaane vaali financial product me uchh star ka jokhim shamil hota hai aur iske parinamasvarup aapke sabhi fund khone ka nuksaan ho sakta hai. Aapko kabhi bhi utne paise ka nivesh nahin karna chaahiyen jise aap khone ka jokhim nahin utha sakte.',
+			'Yeh vishay vastu SKY LADDER LLC ke swaamitwa me hai aur kewal un upyogkartaaon ke liye hai jo European Economic Area (EEA) ke niwaasi nahi hain.'
 		]
 	},
 	benefits: {

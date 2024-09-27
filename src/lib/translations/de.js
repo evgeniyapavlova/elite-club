@@ -4,8 +4,8 @@ export default {
 		privacy: 'Datenschutzrichtlinie',
 		cookies: 'Cookies policy',
 		text: [
-			'The financial products offered by the company carry a high level of risk and can result in the loss of all your funds. You should never invest money that you cannot afford to lose.',
-			'This content is owned by SKY LADDER LLC and is only intended to users that are not residents of EEA.'
+			'Die vom Unternehmen angebotenen Finanzprodukte beinhalten ein hohes Risiko und können zum Verlust Ihrer gesamten Mittel führen. Sie sollten niemals Geld investieren, dessen Verlust Sie sich nicht leisten können.',
+			'Dieser Inhalt ist Eigentum von SKY LADDER LLC und ist nur für Benutzer bestimmt, die nicht im EWR ansässig sind.'
 		]
 	},
 	benefits: {
