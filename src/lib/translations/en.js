@@ -50,7 +50,7 @@ export default {
 			},
 			{
 				label: 'Exclusive Services From the Best Professionals',
-				caption: 'Welth, Tax advisory, Social Media and travel management'
+				caption: 'Social Media and travel management'
 			}
 		],
 		items_education: [
@@ -85,13 +85,12 @@ export default {
 			{
 				label: 'Experiences',
 				caption: [
-					'Formula 1 Grand Prix VIP Experiene',
-					'Sport TOP events (NBA, Football, Tennis, Motorsport, Cricket, etc...)',
+					'Sport TOP events (Formula 1 Grand Prix VIP Experiene, NBA, Football, Tennis, Motorsport, Cricket)',
 					'Music concertts and festivals',
-					'Theme parks (Disney world, Universal Studios, Ferrari world...)',
+					'Theme parks (Disney world, Universal Studios, Ferrari world)',
 					'Ski Resorts',
 					'Michellin stars restaurants',
-					'Helicopter ride (Bangkok, Dubai, Singapore, New York....)',
+					'Helicopter ride (Bangkok, Dubai, Singapore, New York)',
 					'Sport car driving '
 				]
 			},
@@ -177,7 +176,7 @@ export default {
 			},
 			{
 				q: 'How can I advance to the next tier?',
-				a: 'By now, there are only two tiers, one for non-profiled users and other for profiled users, who have provided all required information to advance to the top tier, and have the best experience.'
+				a: 'By now, there are only two tiers, one for non-profiled users and the other for profiled users, who have provided all required information to advance to the top tier, and have the best experience.'
 			},
 			{
 				q: 'Can I get downgraded from my current tier?',

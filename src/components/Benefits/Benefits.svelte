@@ -10,7 +10,6 @@
 	import BenefitsTableMobile from './BenefitsTableMobile.svelte';
 	import { checkmarks } from './checkmarks';
 	import BenefitsMenuMobile from './BenefitsMenuMobile.svelte';
-	import benefitsBgr from './img/benefits-bgr.webp';
 
 	let isStyleLoaded = false;
 	async function loadStyle() {
@@ -30,8 +29,8 @@
 	const items = [
 		{ id: 0, list: items_services },
 
-		{ id: 1, list: items_education },
-		{ id: 2, list: items_experience },
+		{ id: 1, list: items_education.slice(0, 3) },
+		{ id: 2, list: [...items_experience.slice(1, 3), items_education[3]] },
 		{ id: 3, list: items_gifts }
 	];
 
