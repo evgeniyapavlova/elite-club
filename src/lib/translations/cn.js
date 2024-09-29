@@ -41,7 +41,7 @@ export default {
 				caption: '与我们的专家进行私人交易'
 			},
 			{
-				label: '交易大师班（在线）',
+				label: '交易大师班',
 				caption: '为小群体交易者举办的私人专属教育活动'
 			}
 		],

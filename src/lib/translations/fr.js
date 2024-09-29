@@ -47,7 +47,7 @@ export default {
 				caption: 'Sessions de trading privées avec nos experts'
 			},
 			{
-				label: 'Masterclasses sur le trading (en ligne)',
+				label: 'Masterclasses sur le trading',
 				caption: 'Événements éducatifs privés et exclusifs pour un petit groupe de traders'
 			}
 		],

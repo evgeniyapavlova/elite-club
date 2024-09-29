@@ -47,7 +47,7 @@ export default {
 				caption: 'Privata handelssessioner med våra experter'
 			},
 			{
-				label: 'Masterklasser om handel (online)',
+				label: 'Masterklasser om handel',
 				caption: 'Privata och exklusiva utbildningsevenemang för mindre grupper av traders'
 			}
 		],

@@ -47,7 +47,7 @@ export default {
 				caption: 'Sesi trading pribadi bersama pakar kami'
 			},
 			{
-				label: 'Kelas Master Trading (Online)',
+				label: 'Kelas Master Trading',
 				caption: 'Acara edukasi pribadi dan eksklusif bagi kelompok kecil trader'
 			}
 		],

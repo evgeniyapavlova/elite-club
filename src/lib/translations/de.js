@@ -47,7 +47,7 @@ export default {
 				caption: 'Private Handelssitzungen mit unseren Experten'
 			},
 			{
-				label: 'Meisterklassen zum Handel (Online)',
+				label: 'Meisterklassen zum Handel',
 				caption: 'Private und exklusive Bildungsveranstaltungen für eine kleine Gruppe von Händlern'
 			}
 		],

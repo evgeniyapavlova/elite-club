@@ -49,7 +49,7 @@ export default {
 				caption: 'Sessões de negociação privadas com nossos especialistas'
 			},
 			{
-				label: 'Masterclasses sobre negociação (on-line)',
+				label: 'Masterclasses sobre negociação',
 				caption: 'Eventos educacionais privados e exclusivos para pequenos grupos de traders'
 			}
 		],

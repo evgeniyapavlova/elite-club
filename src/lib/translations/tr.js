@@ -47,7 +47,7 @@ export default {
 				caption: 'Uzmanlarımızla özel işlem seansları'
 			},
 			{
-				label: 'Yatırımla ilgili ustalık dersleri (Çevrimiçi)',
+				label: 'Yatırımla ilgili ustalık dersleri',
 				caption: 'Küçük işlemci grupları için özel ve ayrıcalıklı eğitim etkinlikleri'
 			}
 		],

@@ -42,7 +42,7 @@ export default {
 				caption: 'Phiên giao dịch riêng với các chuyên gia của chúng tôi'
 			},
 			{
-				label: 'Lớp học nâng cao về giao dịch (Trực tuyến)',
+				label: 'Lớp học nâng cao về giao dịch',
 				caption: 'Sự kiện giáo dục riêng và độc quyền dành cho nhóm nhỏ các nhà giao dịch'
 			}
 		],

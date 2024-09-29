@@ -15,11 +15,11 @@
 
 <style>
 	.icon-wrap {
-		height: 26px;
+		width: 26px;
 		height: 26px;
 		display: flex;
 		align-items: center;
-		justify-self: center;
+		justify-content: center;
 		margin: 0 auto;
 	}
 </style>

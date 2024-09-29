@@ -42,7 +42,7 @@ export default {
 				caption: 'Hamaare experts ke saath niji trading session'
 			},
 			{
-				label: 'Trading par masterclasses (Online)',
+				label: 'Trading par masterclasses',
 				caption: 'Traders ke chhote samuh ke liye private aur vishesh shiksha karyakram'
 			}
 		],

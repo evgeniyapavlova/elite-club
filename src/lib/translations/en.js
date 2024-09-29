@@ -67,7 +67,7 @@ export default {
 				caption: 'Private trading sessions with our experts'
 			},
 			{
-				label: 'Masterclasses on Trading (Online)',
+				label: 'Masterclasses on Trading',
 				caption: 'Private and exclusive education events for small group of traders'
 			}
 		],
