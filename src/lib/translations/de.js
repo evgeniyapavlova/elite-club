@@ -123,8 +123,9 @@ export default {
 			'Füllen Sie das Formular aus, um dem Club beizutreten. Unsere Manager werden sich mit Ihnen in Verbindung setzen, um Sie über alle Funktionen des Programms zu informieren',
 		contact: 'Wie möchten Sie kontaktiert werden',
 		email: 'E-Mail',
-		emailLabel: 'E-Mail',
-		telegram: 'Telegram',
+		emailLabel: 'Ihre E-Mail für das IQ Option-Konto',
+		telegram: 'Telegram-ID',
+		phone: 'Telefonnummer',
 		button: 'Anfrage senden',
 		terms: [
 			'Wenn Sie fortsetzen, akzeptieren Sie unsere',

@@ -123,8 +123,9 @@ export default {
 			'Rellena el formulario para unirte al club. Nuestros gestores se pondrán en contacto contigo para informarte de todas las características del programa',
 		contact: 'Cómo deseas ser contactado',
 		email: 'E-mail',
-		emailLabel: 'E-mail',
-		telegram: 'Telegram',
+		emailLabel: 'El email de tu cuenta de IQ Option',
+		telegram: 'ID de Telegram',
+		phone: 'Número de Teléfono',
 		button: 'Enviar solicitud',
 		terms: [
 			'Al continuar, aceptas nuestros',

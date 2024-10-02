@@ -123,8 +123,9 @@ export default {
 			'Заполните форму, чтобы вступить в клуб. Наши менеджеры свяжутся с вами, чтобы рассказать обо всех особенностях программы',
 		contact: 'Как с вами лучше связаться',
 		email: 'E-mail',
-		emailLabel: 'E-mail',
-		telegram: 'Telegram',
+		emailLabel: 'Email вашего аккаунта на IQ Option',
+		telegram: 'Telegram ID',
+		phone: 'Номер телефона',
 		button: 'Отправить запрос',
 		terms: [
 			'Продолжая, вы принимаете наши',

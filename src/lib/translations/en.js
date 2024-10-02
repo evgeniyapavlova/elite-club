@@ -16,7 +16,8 @@ export default {
 		contact: 'How would you like to be contacted?',
 		email: 'E-mail',
 		emailLabel: 'Your IQ Option account E-mail',
-		telegram: 'Telegram',
+		telegram: 'Telegram ID',
+		phone: 'Phone number',
 		button: 'Send request',
 		terms: ['By continuing you accept our', 'Terms & Conditions', 'and', 'Privacy policy'],
 

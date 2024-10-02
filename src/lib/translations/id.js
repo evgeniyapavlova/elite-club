@@ -123,8 +123,9 @@ export default {
 			'Isi formulirnya untuk bergabung ke klub. Manajer kami akan menghubungi Anda untuk menjelaskan semua fitur program',
 		contact: 'Bagaimana Anda ingin menghubungi',
 		email: 'E-mail',
-		emailLabel: 'E-mail',
-		telegram: 'Telegram',
+		emailLabel: 'Email akun IQ Option Anda',
+		telegram: 'ID Telegram',
+		phone: 'Nomor telepon',
 		button: 'Kirim permintaan',
 		terms: [
 			'Dengan melanjutkan, Anda menyetujui',

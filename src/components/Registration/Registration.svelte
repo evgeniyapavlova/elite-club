@@ -40,8 +40,8 @@
 					{content.fill_form}
 				</p>
 				<Form
-					labels={{ contact, email: emailLabel, tg: content.telegram, phone: 'Phone number' }}
-					options={[email, content.telegram, 'Phone number']}
+					labels={{ contact, email: emailLabel, tg: content.telegram, phone: content.phone }}
+					options={[email, content.telegram, content.phone]}
 					button={content.button}
 					{updateSuccess}
 				/>

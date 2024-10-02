@@ -119,8 +119,9 @@ export default {
 			'Club me shaamil hone ke liye form bharen. Is program ki sabhi visheshtaaon ke baare me bataane ke liye hamaare prabandhak aapse sampark karengen',
 		contact: 'Aap kaise sampark karna chahengen',
 		email: 'E-mail',
-		emailLabel: 'E-mail',
-		telegram: 'Telegram',
+		emailLabel: 'Aapka IQ Option account email',
+		telegram: 'Telegram ID',
+		phone: 'Phone number',
 		button: 'Anurodh bhejen',
 		terms: [
 			'Jaari rakhkar aap hamaare',

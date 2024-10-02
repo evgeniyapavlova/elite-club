@@ -123,8 +123,9 @@ export default {
 			'Kulübe katılmak için formu doldurun. Yöneticilerimiz programın tüm özellikleri hakkında bilgi vermek üzere sizinle iletişime geçecek',
 		contact: 'Sizinle nasıl iletişim kurmamızı istersiniz?',
 		email: 'E-posta',
-		emailLabel: 'E-posta',
-		telegram: 'Telegram',
+		emailLabel: 'IQ Option hesabınızın e-posta adresi',
+		telegram: 'Telegram Kimliği',
+		phone: 'Telefon numarası',
 		button: 'İstek gönder',
 		terms: [
 			'Devam ederek şu belgelerimizi kabul etmiş olursunuz:',

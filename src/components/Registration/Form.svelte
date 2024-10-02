@@ -72,7 +72,7 @@
 	const contactMethodOptions = [
 		{ value: 'email', label: options[0] },
 		{ value: 'tg', label: options[1] },
-		{ value: 'phone', label: 'Phone number' }
+		{ value: 'phone', label: options[2] }
 	];
 
 	$: phoneCodeData = getPhoneCodeData($countryCode);
