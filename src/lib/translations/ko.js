@@ -2,7 +2,7 @@ export default {
 	footer: {
 		terms: '이용약관',
 		privacy: '개인정보 보호정책',
-		cookies: 'Cookies policy',
+		cookies: '쿠키 정책',
 		text: [
 			'회사가 제공하는 본 금융 상품은 높은 수준의 위험을 수반하며 자금 전체에 손실을 입을 수도 있습니다. 손실을 감내할 수 없는 자금은 결코 투자해서는 안 됩니다.',
 			'본 컨텐츠는 SKY LADDER LLC의 소유이며 EEA 비거주자만을 대상으로 합니다.'

@@ -2,7 +2,7 @@ export default {
 	footer: {
 		terms: 'Termini e condizioni',
 		privacy: 'Politica sulla privacy',
-		cookies: 'Cookies policy',
+		cookies: "Politica sull'uso dei cookie",
 		text: [
 			'I prodotti finanziari offerti dalla società comportano un elevato livello di rischio e possono comportare la perdita di tutti i fondi. Non investire mai importi che non puoi permetterti di perdere.',
 			'Il presente contenuto è di proprietà di SKY LADDER LLC ed è rivolto esclusivamente ai residenti al di fuori del SEE.'

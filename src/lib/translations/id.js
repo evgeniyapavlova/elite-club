@@ -2,7 +2,7 @@ export default {
 	footer: {
 		terms: 'Syarat & Ketentuan',
 		privacy: 'Kebijakan privasi',
-		cookies: 'Cookies policy',
+		cookies: 'Kebijakan kuki',
 		text: [
 			'Produk finansial yang ditawarkan perusahaan ini mengandung risiko tinggi dan dapat menyebabkan hilangnya seluruh dana Anda. Jangan menginvestasikan uang jika Anda tidak siap kehilangan uang tersebut.',
 			'Konten ini adalah milik SKY LADDER LLC dan hanya ditujukan untuk pengguna yang bukan penduduk EEA.'

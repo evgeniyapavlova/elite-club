@@ -2,7 +2,7 @@ export default {
 	footer: {
 		terms: 'Điều khoản và Điều kiện',
 		privacy: 'Chính sách quyền riêng tư',
-		cookies: 'Cookies policy',
+		cookies: 'Chính sách cookie',
 		text: [
 			'Sản phẩm tài chính do công ty cung cấp có mức độ rủi ro cao và có thể khiến bạn thua lỗ toàn bộ số tiền. Bạn không nên đầu tư vượt quá khả năng chịu thua lỗ của mình.',
 			'Nội dung này thuộc sở hữu của SKY LADDER LLC và chỉ dành cho người dùng không phải là công dân sinh sống tại EEA.'

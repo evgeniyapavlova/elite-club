@@ -2,7 +2,7 @@ export default {
 	footer: {
 		terms: 'Villkor',
 		privacy: 'Sekretesspolicy',
-		cookies: 'Cookies policy',
+		cookies: 'Cookie-policy',
 		text: [
 			'De finansiella produkterna som företaget erbjuder medför en hög risk och kan leda till att alla dina pengar går förlorade. Du ska aldrig investera pengar som du inte har råd att förlora.',
 			'Detta innehåll ägs av SKY LADDER LLC och är endast avsedd för användare som inte är bosatta i EES.'

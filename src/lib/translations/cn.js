@@ -2,7 +2,7 @@ export default {
 	footer: {
 		terms: '条款和条件',
 		privacy: '隐私政策',
-		cookies: 'Cookies policy',
+		cookies: 'Cookies 政策',
 		text: [
 			'该公司提供的金融产品具有高风险，可能会导致您损失所有资金。您不应该投资您无法承受损失的资金。',
 			'该内容归 SKY LADDER LLC 所有，仅供非 EEA 居民的用户使用。'

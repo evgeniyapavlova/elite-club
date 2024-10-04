@@ -2,7 +2,7 @@ export default {
 	footer: {
 		terms: 'Hüküm ve Koşullar',
 		privacy: 'Gizlilik politikası',
-		cookies: 'Cookies policy',
+		cookies: 'Çerez politikası',
 		text: [
 			'Şirket tarafından sunulan finansal ürünler yüksek seviyede risk taşır ve tüm paranızın kaybına yol açabilir. Kaybetmeyi göze alamadığınız parayla asla yatırım yapmamalısınız.',
 			'Bu içerik SKY LADDER LLC şirketine aittir ve yalnızca EEA sınırları içinde ikamet etmeyen kullanıcılara yöneliktir.'

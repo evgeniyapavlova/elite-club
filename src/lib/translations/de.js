@@ -2,7 +2,7 @@ export default {
 	footer: {
 		terms: 'Allgemeinen Geschäftsbedingungen',
 		privacy: 'Datenschutzrichtlinie',
-		cookies: 'Cookies policy',
+		cookies: 'Cookie-Richtlinie',
 		text: [
 			'Die vom Unternehmen angebotenen Finanzprodukte beinhalten ein hohes Risiko und können zum Verlust Ihrer gesamten Mittel führen. Sie sollten niemals Geld investieren, dessen Verlust Sie sich nicht leisten können.',
 			'Dieser Inhalt ist Eigentum von SKY LADDER LLC und ist nur für Benutzer bestimmt, die nicht im EWR ansässig sind.'

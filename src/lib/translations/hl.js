@@ -2,7 +2,7 @@ export default {
 	footer: {
 		terms: 'Niyam aur Sharten',
 		privacy: 'Gopniyata Niti se sahmat hote hain',
-		cookies: 'Cookies policy',
+		cookies: 'Cookies neeti',
 		text: [
 			'Company dvaara pradaan ki jaane vaali financial product me uchh star ka jokhim shamil hota hai aur iske parinamasvarup aapke sabhi fund khone ka nuksaan ho sakta hai. Aapko kabhi bhi utne paise ka nivesh nahin karna chaahiyen jise aap khone ka jokhim nahin utha sakte.',
 			'Yeh vishay vastu SKY LADDER LLC ke swaamitwa me hai aur kewal un upyogkartaaon ke liye hai jo European Economic Area (EEA) ke niwaasi nahi hain.'
