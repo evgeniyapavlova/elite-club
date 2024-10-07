@@ -1,4 +1,8 @@
 export default {
+	cookies: {
+		text: '我们使用 cookies 来了解您如何使用我们的网站，并改善您的体验。继续使用我们的网站即表示您同意使用 cookies。',
+		moreInfo: '详细内容'
+	},
 	footer: {
 		terms: '条款和条件',
 		privacy: '隐私政策',

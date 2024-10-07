@@ -1,4 +1,8 @@
 export default {
+	cookies: {
+		text: 'Usamos cookies para entender como você usa nosso site e para melhorar sua experiência. Ao continuar a usar nosso site, você concorda com seu uso.',
+		moreInfo: 'Mais Informações'
+	},
 	footer: {
 		terms: 'Termos e Condições',
 		privacy: 'Política de Privacidade',

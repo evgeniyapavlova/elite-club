@@ -1,4 +1,9 @@
 export default {
+	cookies: {
+		text: 'Vi använder cookies för att förstå hur du använder vår webbplats och för att förbättra din upplevelse. Genom att fortsätta använda vår webbplats godkänner du deras användning.',
+		moreInfo: 'Mer info'
+	},
+
 	footer: {
 		terms: 'Villkor',
 		privacy: 'Sekretesspolicy',

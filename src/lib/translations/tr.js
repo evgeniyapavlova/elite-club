@@ -1,4 +1,8 @@
 export default {
+	cookies: {
+		text: '	Sitemizi nasıl kullandığınızı anlamak ve deneyiminizi geliştirmek için çerezleri kullanıyoruz. Web sitemizi kullanmaya devam ederek çerezlerin kullanımını kabul etmiş oluyorsunuz.',
+		moreInfo: 'Daha Fazla Bilgi'
+	},
 	footer: {
 		terms: 'Hüküm ve Koşullar',
 		privacy: 'Gizlilik politikası',

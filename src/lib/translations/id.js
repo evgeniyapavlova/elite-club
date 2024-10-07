@@ -1,4 +1,8 @@
 export default {
+	cookies: {
+		text: 'Kami menggunakan cookies untuk memahami bagaimana Anda menggunakan situs kami dan meningkatkan pengalaman Anda. Dengan terus menggunakan situs web kami, Anda menyetujui penggunaannya.',
+		moreInfo: 'Info Lebih Lanjut'
+	},
 	footer: {
 		terms: 'Syarat & Ketentuan',
 		privacy: 'Kebijakan privasi',

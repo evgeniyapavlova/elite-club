@@ -1,4 +1,8 @@
 export default {
+	cookies: {
+		text: 'Hum cookies ka upayog karte hain taaki hum samajh saken ki aap hamari site ka upayog kaise karte hain aur aapke anubhav ko behtar kar saken. Hamari website ka upayog jaari rakhne par aap inke upayog se sahmat hote hain.',
+		moreInfo: 'Zyada Jankari'
+	},
 	footer: {
 		terms: 'Niyam aur Sharten',
 		privacy: 'Gopniyata Niti se sahmat hote hain',
