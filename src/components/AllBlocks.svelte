@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import Intro from './Intro/Intro.svelte';
 	import introBgr from './Intro2/img/intro2-bgr.webp';
-	import Footer from './Footer/Footer.svelte';
+	import Cookies from './common/Cookies.svelte';
 
 	export let lang;
 
@@ -64,6 +64,9 @@
 		loadFooterComp();
 	});
 </script>
+
+{#if translation?.cookies}<Cookies content={translation?.cookies} />
+{/if}
 
 <Intro bind:isTranslationLoaded content={translation?.intro} {lang} />
 
